@@ -1,0 +1,103 @@
+<Form>
+<Form>
+<ID>d41be3e7-24fe-4107-9512-ba8f42a5b7ac</ID>
+<Title>Scaler Neurons</Title>
+<TabPageName>Scaler Neurons</TabPageName>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.Forms.Charts.LineChart</ClassName>
+<AutoCollectInterval>True</AutoCollectInterval>
+<CollectDataInterval Value="0.2" Scale="milli" Actual="0.0002"/>
+<CollectTimeWindow Value="3" Scale="None" Actual="3"/>
+<UpdateDataInterval Value="200" Scale="milli" Actual="0.2"/>
+<SetStartEndTime>True</SetStartEndTime>
+<CollectStartTime Value="0" Scale="None" Actual="0"/>
+<CollectEndTime Value="30" Scale="None" Actual="30"/>
+<AxisList>
+<Axis>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DAxis</ClassName>
+<Name>Y Axis 1</Name>
+<WorkingAxis>0</WorkingAxis>
+<DataColumns>
+<DataColumn>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
+<Name>(11) Kd scaler</Name>
+<ID>12e8a139-e434-4c74-98ae-126508ad50b8</ID>
+<DataItemAssemblyFile>IntegrateFireGUI.dll</DataItemAssemblyFile>
+<DataItemClassName>IntegrateFireGUI.DataObjects.Behavior.Neurons.NonSpiking</DataItemClassName>
+<StructureID>f62df54c-5c1e-4e6b-b251-7d9765d1fa46</StructureID>
+<DataItemID>8113bd8d-70cd-44f6-80d9-3acfd582fb98</DataItemID>
+<SelectedDataType>MembraneVoltage</SelectedDataType>
+<DataSubSet>0</DataSubSet>
+<PrevDataSubset>0</PrevDataSubset>
+<UseIncomingDataType>False</UseIncomingDataType>
+<LineType>MediumSolid</LineType>
+<PointType>Plus</PointType>
+<PlotMethodType>Line</PlotMethodType>
+<LineColor>-65536</LineColor>
+</DataColumn>
+<DataColumn>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
+<Name>Kp scaler</Name>
+<ID>6656c4e8-b3aa-422a-a73b-1d5fc046a4eb</ID>
+<DataItemAssemblyFile>AnimatGUI.dll</DataItemAssemblyFile>
+<DataItemClassName>AnimatGUI.DataObjects.Robotics.PassThroughLinkage</DataItemClassName>
+<StructureID/>
+<DataItemID>4337f16e-5d20-4960-ae47-6ed0879c109a</DataItemID>
+<SelectedDataType>AppliedValue</SelectedDataType>
+<DataSubSet>1</DataSubSet>
+<PrevDataSubset>-1</PrevDataSubset>
+<UseIncomingDataType>False</UseIncomingDataType>
+<LineType>MediumSolid</LineType>
+<PointType>Plus</PointType>
+<PlotMethodType>Line</PlotMethodType>
+<LineColor>-256</LineColor>
+</DataColumn>
+<DataColumn>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
+<Name>(8) Kp scaler</Name>
+<ID>817e91f2-606d-41f9-9c03-c568551debaa</ID>
+<DataItemAssemblyFile>IntegrateFireGUI.dll</DataItemAssemblyFile>
+<DataItemClassName>IntegrateFireGUI.DataObjects.Behavior.Neurons.NonSpiking</DataItemClassName>
+<StructureID>f62df54c-5c1e-4e6b-b251-7d9765d1fa46</StructureID>
+<DataItemID>163280a3-a72d-47bf-bcbb-64015b16ccbd</DataItemID>
+<SelectedDataType>MembraneVoltage</SelectedDataType>
+<DataSubSet>2</DataSubSet>
+<PrevDataSubset>1</PrevDataSubset>
+<UseIncomingDataType>False</UseIncomingDataType>
+<LineType>MediumSolid</LineType>
+<PointType>Plus</PointType>
+<PlotMethodType>Line</PlotMethodType>
+<LineColor>-16711936</LineColor>
+</DataColumn>
+<DataColumn>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
+<Name>Kd scaler</Name>
+<ID>8e52f2be-04bb-4b1d-a75b-01914388066d</ID>
+<DataItemAssemblyFile>AnimatGUI.dll</DataItemAssemblyFile>
+<DataItemClassName>AnimatGUI.DataObjects.Robotics.PassThroughLinkage</DataItemClassName>
+<StructureID/>
+<DataItemID>15fca8a3-2b46-4a63-bc20-5f84703c0fe2</DataItemID>
+<SelectedDataType>AppliedValue</SelectedDataType>
+<DataSubSet>3</DataSubSet>
+<PrevDataSubset>2</PrevDataSubset>
+<UseIncomingDataType>False</UseIncomingDataType>
+<LineType>MediumSolid</LineType>
+<PointType>Plus</PointType>
+<PlotMethodType>Line</PlotMethodType>
+<LineColor>-16776961</LineColor>
+</DataColumn>
+</DataColumns>
+</Axis>
+</AxisList>
+<SaveDataWhenClosed>False</SaveDataWhenClosed>
+<UpdateChartAtEnd>True</UpdateChartAtEnd>
+<PointsToKeep>15000</PointsToKeep>
+<YAxisOffset>0</YAxisOffset>
+<GraphConfig ByteCount="8971"/>
+</Form>
+</Form>

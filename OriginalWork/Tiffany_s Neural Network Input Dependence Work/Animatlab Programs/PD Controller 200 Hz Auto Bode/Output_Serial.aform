@@ -1,0 +1,67 @@
+<Form>
+<Form>
+<ID>5668d326-07b2-489e-b5ca-5779d2888eec</ID>
+<Title>Output Serial</Title>
+<TabPageName>Output Serial</TabPageName>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.Forms.Charts.LineChart</ClassName>
+<AutoCollectInterval>True</AutoCollectInterval>
+<CollectDataInterval Value="0.6" Scale="milli" Actual="0.0006"/>
+<CollectTimeWindow Value="11" Scale="None" Actual="11"/>
+<UpdateDataInterval Value="200" Scale="milli" Actual="0.2"/>
+<SetStartEndTime>True</SetStartEndTime>
+<CollectStartTime Value="0" Scale="None" Actual="0"/>
+<CollectEndTime Value="9" Scale="None" Actual="9"/>
+<AxisList>
+<Axis>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DAxis</ClassName>
+<Name>Y Axis 1</Name>
+<WorkingAxis>0</WorkingAxis>
+<DataColumns>
+<DataColumn>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
+<Name>CW Torque Out</Name>
+<ID>10e8ce8d-0372-40e5-87c3-c21c6fb78ae7</ID>
+<DataItemAssemblyFile>AnimatGUI.dll</DataItemAssemblyFile>
+<DataItemClassName>AnimatGUI.DataObjects.Robotics.PassThroughLinkage</DataItemClassName>
+<StructureID/>
+<DataItemID>c80ad241-1e29-4fab-bf3a-a51f79cac225</DataItemID>
+<SelectedDataType>AppliedValue</SelectedDataType>
+<DataSubSet>0</DataSubSet>
+<PrevDataSubset>0</PrevDataSubset>
+<UseIncomingDataType>False</UseIncomingDataType>
+<LineType>MediumSolid</LineType>
+<PointType>Plus</PointType>
+<PlotMethodType>Line</PlotMethodType>
+<LineColor>-16711936</LineColor>
+</DataColumn>
+<DataColumn>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
+<Name>CCW Torque Out</Name>
+<ID>d4d1e56a-deff-4984-8c4c-616f92b333c0</ID>
+<DataItemAssemblyFile>AnimatGUI.dll</DataItemAssemblyFile>
+<DataItemClassName>AnimatGUI.DataObjects.Robotics.PassThroughLinkage</DataItemClassName>
+<StructureID/>
+<DataItemID>ac577aaf-7229-4ac6-a010-586ee9f19046</DataItemID>
+<SelectedDataType>AppliedValue</SelectedDataType>
+<DataSubSet>1</DataSubSet>
+<PrevDataSubset>1</PrevDataSubset>
+<UseIncomingDataType>False</UseIncomingDataType>
+<LineType>MediumSolid</LineType>
+<PointType>Plus</PointType>
+<PlotMethodType>Line</PlotMethodType>
+<LineColor>-65536</LineColor>
+</DataColumn>
+</DataColumns>
+</Axis>
+</AxisList>
+<SaveDataWhenClosed>False</SaveDataWhenClosed>
+<UpdateChartAtEnd>False</UpdateChartAtEnd>
+<PointsToKeep>18334</PointsToKeep>
+<YAxisOffset>0</YAxisOffset>
+<GraphConfig ByteCount="8971"/>
+</Form>
+</Form>
