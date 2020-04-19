@@ -1,7 +1,7 @@
 # ME510Project_posturalControl
 ME510 Neuromechanical Modeling final project. 
 
-Spring 2020 (COVID-19)
+_Spring 2020 (COVID-19)_
 
 
 ## Description
