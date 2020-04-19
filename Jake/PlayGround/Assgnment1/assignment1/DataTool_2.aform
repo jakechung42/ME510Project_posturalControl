@@ -37,6 +37,24 @@
 <PlotMethodType>Line</PlotMethodType>
 <LineColor>-65536</LineColor>
 </DataColumn>
+<DataColumn>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
+<Name>Perc. Pos</Name>
+<ID>dc9a738a-0a8d-44e6-af00-d3de07a48f29</ID>
+<DataItemAssemblyFile>IntegrateFireGUI.dll</DataItemAssemblyFile>
+<DataItemClassName>IntegrateFireGUI.DataObjects.Behavior.Neurons.NonSpiking</DataItemClassName>
+<StructureID>a4dc7663-e2d9-4867-b6e6-0f9fec75a505</StructureID>
+<DataItemID>6f341155-b49a-4c57-9436-daa8b6270d90</DataItemID>
+<SelectedDataType>MembraneVoltage</SelectedDataType>
+<DataSubSet>4</DataSubSet>
+<PrevDataSubset>4</PrevDataSubset>
+<UseIncomingDataType>False</UseIncomingDataType>
+<LineType>MediumSolid</LineType>
+<PointType>Plus</PointType>
+<PlotMethodType>Line</PlotMethodType>
+<LineColor>-16711936</LineColor>
+</DataColumn>
 </DataColumns>
 </Axis>
 <Axis>
@@ -122,6 +140,6 @@
 <UpdateChartAtEnd>True</UpdateChartAtEnd>
 <PointsToKeep>55000</PointsToKeep>
 <YAxisOffset>0</YAxisOffset>
-<GraphConfig ByteCount="8965"/>
+<GraphConfig ByteCount="8975"/>
 </Form>
 </Form>
