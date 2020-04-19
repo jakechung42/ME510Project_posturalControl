@@ -284,7 +284,7 @@
 <Relaxation5>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>d7214467-e737-4ad0-a276-553ec5d81284</ID>
+<ID>d84c92d2-4ec6-4cb2-9d64-322533a2fc8d</ID>
 <Enabled>False</Enabled>
 <CoordinateID>4</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -293,7 +293,7 @@
 <Relaxation6>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>d84c92d2-4ec6-4cb2-9d64-322533a2fc8d</ID>
+<ID>62497831-454f-432c-8bf9-862d0b72d1c4</ID>
 <Enabled>False</Enabled>
 <CoordinateID>5</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -528,9 +528,9 @@
 <Url/>
 <ZOrder>0</ZOrder>
 <Name>Hyp Sub</Name>
-<EquilibriumPotential Value="-100" Scale="milli" Actual="-0.1"/>
+<EquilibriumPotential Value="0" Scale="milli" Actual="0"/>
 <MaxSynapticConductance Value="0.5" Scale="micro" Actual="5e-007"/>
-<PreSynapticThreshold Value="-55" Scale="milli" Actual="-0.055"/>
+<PreSynapticThreshold Value="-60" Scale="milli" Actual="-0.06"/>
 <PreSynapticSaturationLevel Value="-40" Scale="milli" Actual="-0.04"/>
 </Link>
 <Link>
@@ -792,8 +792,8 @@
 <Url/>
 <ZOrder>0</ZOrder>
 <Name>Dep Add</Name>
-<EquilibriumPotential Value="134" Scale="milli" Actual="0.134"/>
-<MaxSynapticConductance Value="0.117" Scale="micro" Actual="1.17e-007"/>
+<EquilibriumPotential Value="-100" Scale="milli" Actual="-0.1"/>
+<MaxSynapticConductance Value="0.5" Scale="micro" Actual="5e-007"/>
 <PreSynapticThreshold Value="-60" Scale="milli" Actual="-0.06"/>
 <PreSynapticSaturationLevel Value="-40" Scale="milli" Actual="-0.04"/>
 </Link>
@@ -1129,8 +1129,8 @@
 <ID>dd76f8d7-2358-4388-b4d1-c826e8c12ea2</ID>
 </InLinks>
 <OutLinks>
-<ID>14ae909d-974a-4948-9262-43dbc9448b9d</ID>
 <ID>e8ae209b-fbae-40d0-b91f-9149734a62a2</ID>
+<ID>14ae909d-974a-4948-9262-43dbc9448b9d</ID>
 </OutLinks>
 <Enabled>True</Enabled>
 <RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
@@ -1206,8 +1206,8 @@
 <TemplateChangeScript/>
 <InLinks/>
 <OutLinks>
-<ID>0d241067-7bc9-403a-b17a-9e3dd1d45761</ID>
 <ID>fd67ed86-7ffb-4ad0-94fb-b46348ef791d</ID>
+<ID>0d241067-7bc9-403a-b17a-9e3dd1d45761</ID>
 </OutLinks>
 <Enabled>True</Enabled>
 <RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
@@ -1337,7 +1337,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="148.438" y="169.25"/>
+<Location x="165.688" y="193.25"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -1371,11 +1371,11 @@
 <DataTypeID>MembraneVoltage</DataTypeID>
 <TargetDataTypeID>DesiredVelocity</TargetDataTypeID>
 <Gain>
-<ID>b36fdb04-3e18-4e8c-a558-98287dff7df5</ID>
+<ID>0977157a-3101-44a4-8489-07cb24d72686</ID>
 <Type>Polynomial</Type>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Gains.Polynomial</ClassName>
-<UseLimits>False</UseLimits>
+<UseLimits>True</UseLimits>
 <LimitsReadOnly>False</LimitsReadOnly>
 <LimitOutputsReadOnly>False</LimitOutputsReadOnly>
 <UseParentIncomingDataType>True</UseParentIncomingDataType>
@@ -1383,7 +1383,7 @@
 <UpperLimitScale Value="-40" Scale="milli" Actual="-0.04"/>
 <LowerOutputScale Value="-10" Scale="None" Actual="-10"/>
 <UpperOutputScale Value="10" Scale="None" Actual="10"/>
-<IndependentUnits>Input Variable</IndependentUnits>
+<IndependentUnits/>
 <DependentUnits>Output Variable</DependentUnits>
 <A Value="0" Scale="None" Actual="0"/>
 <B Value="0" Scale="None" Actual="0"/>
@@ -1420,7 +1420,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="339" y="288.75"/>
+<Location x="366.75" y="303.75"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -1499,7 +1499,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="210.125" y="479.125"/>
+<Location x="173.375" y="422.875"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -1545,7 +1545,7 @@
 <UpperLimitScale Value="0.78" Scale="None" Actual="0.78"/>
 <LowerOutputScale Value="0" Scale="None" Actual="0"/>
 <UpperOutputScale Value="1" Scale="None" Actual="1"/>
-<IndependentUnits>Input Variable</IndependentUnits>
+<IndependentUnits/>
 <DependentUnits>Output Variable</DependentUnits>
 <A Value="0" Scale="None" Actual="0"/>
 <B Value="0" Scale="None" Actual="0"/>
@@ -2307,7 +2307,7 @@
     <ImageIndex>0</ImageIndex>
     <Tag>fb443eb8-de8c-43df-832b-b258b5dcf096</Tag>
   </Node>
-  <Node Left="148.4375" Top="169.25" Width="40" Height="40">
+  <Node Left="165.6875" Top="193.25" Width="40" Height="40">
     <Shadow Style="None" Color="-16777216" Width="0" Height="0" />
     <Shape Style="Display" Orientation="so_0" />
     <FillColor>-360334</FillColor>
@@ -2341,7 +2341,7 @@
     <Font Name="Arial" Size="12" Bold="False" Italic="False" Strikeout="False" Underline="False" />
     <Tag>7543fb6f-5606-47e4-aab3-0646f3cfa54e</Tag>
   </Link>
-  <Node Left="210.125" Top="479.125" Width="40" Height="40">
+  <Node Left="173.375" Top="422.875" Width="40" Height="40">
     <Shadow Style="None" Color="-16777216" Width="0" Height="0" />
     <Shape Style="Display" Orientation="so_0" />
     <FillColor>-360334</FillColor>
@@ -2373,7 +2373,7 @@
     <DrawColor>-16777216</DrawColor>
     <TextColor>-16777216</TextColor>
     <Font Name="Arial" Size="12" Bold="False" Italic="False" Strikeout="False" Underline="False" />
-    <Point X="563.25" Y="501.75" />
+    <Point X="490.5" Y="444" />
     <Tag>dd76f8d7-2358-4388-b4d1-c826e8c12ea2</Tag>
   </Link>
 </AddFlow>
@@ -2404,7 +2404,7 @@
 <Texture/>
 <LocalPosition>
 <X Value="-13.205" Scale="centi" Actual="-0.13205"/>
-<Y Value="0" Scale="None" Actual="0"/>
+<Y Value="2.571" Scale="milli" Actual="0.002571"/>
 <Z Value="-55.311" Scale="milli" Actual="-0.055311"/>
 </LocalPosition>
 <Rotation>
@@ -2412,7 +2412,7 @@
 <Y Value="0" Scale="None" Actual="0"/>
 <Z Value="0" Scale="None" Actual="0"/>
 </Rotation>
-<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,-13.205,0,-5.53114,1</LocalMatrix>
+<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,-13.205,0.25712,-5.5311,1</LocalMatrix>
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Basic</Type>
 <RigidBody>
@@ -2435,14 +2435,14 @@
 <LocalPosition>
 <X Value="-13.205" Scale="centi" Actual="-0.13205"/>
 <Y Value="0" Scale="None" Actual="0"/>
-<Z Value="0" Scale="None" Actual="0"/>
+<Z Value="-55.311" Scale="milli" Actual="-0.055311"/>
 </LocalPosition>
 <Rotation>
-<X Value="-87.398" Scale="None" Actual="-87.398"/>
+<X Value="-87.376" Scale="None" Actual="-87.376"/>
 <Y Value="45.98" Scale="centi" Actual="0.4598"/>
 <Z Value="-14.483" Scale="None" Actual="-14.483"/>
 </Rotation>
-<LocalMatrix>0.968189,-0.0191141,0.24949,0,0.250093,0.0419426,-0.967313,0,0.00802502,0.998937,0.0453886,0,-13.205,0,-5.53114,1</LocalMatrix>
+<LocalMatrix>0.96819,-0.0192112,0.249479,0,0.250089,0.0423206,-0.967298,0,0.00802491,0.998919,0.0457789,0,-13.205,0.25712,-5.5311,1</LocalMatrix>
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Plane</Type>
 <PartType>AnimatGUI.DataObjects.Physical.Bodies.Plane</PartType>
@@ -2588,28 +2588,6 @@
 <Stimulus>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.ExternalStimuli.RepetitiveCurrent</ClassName>
-<Name>Stimulus_1</Name>
-<ID>cef6b990-25d6-4260-941b-387739ca14d1</ID>
-<StartTime Value="2" Scale="None" Actual="2"/>
-<EndTime Value="8" Scale="None" Actual="8"/>
-<StepInterval Value="0" Scale="milli" Actual="0"/>
-<AlwaysActive>False</AlwaysActive>
-<Enabled>False</Enabled>
-<ValueType>Constant</ValueType>
-<Equation>0</Equation>
-<OrganismID>a4dc7663-e2d9-4867-b6e6-0f9fec75a505</OrganismID>
-<NodeID>879459c7-5903-49f9-bfff-a028ef022fe1</NodeID>
-<CurrentOn Value="5" Scale="nano" Actual="5e-009"/>
-<CurrentOff Value="-5" Scale="nano" Actual="-5e-009"/>
-<CurrentBurstOff Value="0" Scale="nano" Actual="0"/>
-<CycleOnDuration Value="1" Scale="None" Actual="1"/>
-<CycleOffDuration Value="1" Scale="None" Actual="1"/>
-<BurstOnDuration Value="6" Scale="None" Actual="6"/>
-<BurstOffDuration Value="0" Scale="None" Actual="0"/>
-</Stimulus>
-<Stimulus>
-<AssemblyFile>AnimatGUI.dll</AssemblyFile>
-<ClassName>AnimatGUI.DataObjects.ExternalStimuli.RepetitiveCurrent</ClassName>
 <Name>Stimulus_2</Name>
 <ID>fbb7e2cc-1c20-4a02-9b61-047e091e8306</ID>
 <StartTime Value="2" Scale="None" Actual="2"/>
@@ -2629,11 +2607,33 @@
 <BurstOnDuration Value="6" Scale="None" Actual="6"/>
 <BurstOffDuration Value="0" Scale="None" Actual="0"/>
 </Stimulus>
+<Stimulus>
+<AssemblyFile>AnimatGUI.dll</AssemblyFile>
+<ClassName>AnimatGUI.DataObjects.ExternalStimuli.RepetitiveCurrent</ClassName>
+<Name>Stimulus_1</Name>
+<ID>cef6b990-25d6-4260-941b-387739ca14d1</ID>
+<StartTime Value="2" Scale="None" Actual="2"/>
+<EndTime Value="8" Scale="None" Actual="8"/>
+<StepInterval Value="0" Scale="milli" Actual="0"/>
+<AlwaysActive>False</AlwaysActive>
+<Enabled>False</Enabled>
+<ValueType>Constant</ValueType>
+<Equation>0</Equation>
+<OrganismID>a4dc7663-e2d9-4867-b6e6-0f9fec75a505</OrganismID>
+<NodeID>879459c7-5903-49f9-bfff-a028ef022fe1</NodeID>
+<CurrentOn Value="5" Scale="nano" Actual="5e-009"/>
+<CurrentOff Value="-5" Scale="nano" Actual="-5e-009"/>
+<CurrentBurstOff Value="0" Scale="nano" Actual="0"/>
+<CycleOnDuration Value="1" Scale="None" Actual="1"/>
+<CycleOffDuration Value="1" Scale="None" Actual="1"/>
+<BurstOnDuration Value="6" Scale="None" Actual="6"/>
+<BurstOffDuration Value="0" Scale="None" Actual="0"/>
+</Stimulus>
 </Stimuli>
 <HudItems>
 <HudItem>
-<Name>ce46b891-0adb-40c2-8f9d-d057e0f6b021</Name>
-<ID>ce46b891-0adb-40c2-8f9d-d057e0f6b021</ID>
+<Name>2a6dcaeb-b193-47e7-a954-baa7894fdbce</Name>
+<ID>2a6dcaeb-b193-47e7-a954-baa7894fdbce</ID>
 <Type>HudText</Type>
 <CharSize>30</CharSize>
 <Text>Time: %3.3f</Text>
@@ -2746,7 +2746,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="04/18/2020 18:18:55"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="04/18/2020 23:29:25"&gt;
   &lt;Content Name="Playback Control" Visible="False" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 150" DisplayLocation="150, 150" AutoHideSize="150, 150" FloatingSize="150, 150" FullTitle="Playback Control" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Playback Control" UniqueName="" /&gt;
@@ -3237,7 +3237,7 @@
 <TabbedGroupsConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;TabbedGroups FormatVersion="1" ActiveLeaf="8"&gt;
+&lt;TabbedGroups FormatVersion="1" ActiveLeaf="9"&gt;
   &lt;CustomGlobalData /&gt;
   &lt;Sequence Count="2" Unique="0" Space="100" Direction="Horizontal"&gt;
     &lt;Leaf Count="1" Unique="8" Space="55.231650182196772514315460700"&gt;
