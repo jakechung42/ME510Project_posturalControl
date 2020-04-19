@@ -2746,7 +2746,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="04/18/2020 17:49:45"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="04/18/2020 17:51:30"&gt;
   &lt;Content Name="Playback Control" Visible="False" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 150" DisplayLocation="150, 150" AutoHideSize="150, 150" FloatingSize="150, 150" FullTitle="Playback Control" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Playback Control" UniqueName="" /&gt;
@@ -3237,7 +3237,7 @@
 <TabbedGroupsConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;TabbedGroups FormatVersion="1" ActiveLeaf="9"&gt;
+&lt;TabbedGroups FormatVersion="1" ActiveLeaf="8"&gt;
   &lt;CustomGlobalData /&gt;
   &lt;Sequence Count="2" Unique="0" Space="100" Direction="Horizontal"&gt;
     &lt;Leaf Count="1" Unique="8" Space="55.231650182196772514315460700"&gt;
@@ -3256,7 +3256,7 @@
       &lt;/Page&gt;
     &lt;/Leaf&gt;
     &lt;Leaf Count="2" Unique="9" Space="44.768349817803227485684539300"&gt;
-      &lt;Page Title="Neural Subsystem" ImageList="True" ImageIndex="1" Selected="True" Control="null" UniqueName=""&gt;
+      &lt;Page Title="Neural Subsystem" ImageList="True" ImageIndex="1" Selected="False" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
 &lt;ID&gt;fad05f0d-3a17-48e6-a728-8d58002d9a05&lt;/ID&gt;
@@ -3270,7 +3270,7 @@
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
-      &lt;Page Title="DataTool_2" ImageList="True" ImageIndex="2" Selected="False" Control="null" UniqueName=""&gt;
+      &lt;Page Title="DataTool_2" ImageList="True" ImageIndex="2" Selected="True" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
 &lt;ID&gt;3bfc3bc2-9d6a-42d8-90e9-56358fba170e&lt;/ID&gt;
