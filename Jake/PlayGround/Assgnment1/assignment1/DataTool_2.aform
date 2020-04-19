@@ -82,7 +82,7 @@
 <DataItemID>6f341155-b49a-4c57-9436-daa8b6270d90</DataItemID>
 <SelectedDataType>MembraneVoltage</SelectedDataType>
 <DataSubSet>2</DataSubSet>
-<PrevDataSubset>-1</PrevDataSubset>
+<PrevDataSubset>2</PrevDataSubset>
 <UseIncomingDataType>False</UseIncomingDataType>
 <LineType>MediumSolid</LineType>
 <PointType>Plus</PointType>
@@ -96,6 +96,6 @@
 <UpdateChartAtEnd>True</UpdateChartAtEnd>
 <PointsToKeep>55000</PointsToKeep>
 <YAxisOffset>0</YAxisOffset>
-<GraphConfig ByteCount="8955"/>
+<GraphConfig ByteCount="8943"/>
 </Form>
 </Form>

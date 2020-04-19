@@ -6,7 +6,7 @@
 <Physics>Bullet</Physics>
 <LibraryVersion>Double</LibraryVersion>
 <Simulation>
-<ProjectPath>C:\Users\luonc\Dropbox\ME510_NeuromechanicalModeling\AnimatLabFolder\Assgnment1\assignment1\</ProjectPath>
+<ProjectPath>D:\Github\ME510Project_posturalControl\Jake\PlayGround\Assgnment1\assignment1\</ProjectPath>
 <AnimatModule>BulletAnimatSim_VC10_double.dll</AnimatModule>
 <UpdateDataInterval>250</UpdateDataInterval>
 <StartPaused>False</StartPaused>
@@ -284,7 +284,7 @@
 <Relaxation5>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>edae6a43-60a4-42a2-9643-831b92388fe1</ID>
+<ID>d7214467-e737-4ad0-a276-553ec5d81284</ID>
 <Enabled>False</Enabled>
 <CoordinateID>4</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -293,7 +293,7 @@
 <Relaxation6>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>d7214467-e737-4ad0-a276-553ec5d81284</ID>
+<ID>d84c92d2-4ec6-4cb2-9d64-322533a2fc8d</ID>
 <Enabled>False</Enabled>
 <CoordinateID>5</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -1226,7 +1226,7 @@
 <UpperLimitScale Value="0.78" Scale="None" Actual="0.78"/>
 <LowerOutputScale Value="0" Scale="None" Actual="0"/>
 <UpperOutputScale Value="1" Scale="None" Actual="1"/>
-<IndependentUnits>Input Variable</IndependentUnits>
+<IndependentUnits/>
 <DependentUnits>Output Variable</DependentUnits>
 <A Value="0" Scale="None" Actual="0"/>
 <B Value="0" Scale="None" Actual="0"/>
@@ -1543,7 +1543,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="432" y="361"/>
+<Location x="426" y="220"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -2486,14 +2486,14 @@
 <LocalPosition>
 <X Value="-13.205" Scale="centi" Actual="-0.13205"/>
 <Y Value="0" Scale="None" Actual="0"/>
-<Z Value="0" Scale="None" Actual="0"/>
+<Z Value="-55.311" Scale="milli" Actual="-0.055311"/>
 </LocalPosition>
 <Rotation>
 <X Value="0" Scale="None" Actual="0"/>
 <Y Value="0" Scale="None" Actual="0"/>
 <Z Value="0" Scale="None" Actual="0"/>
 </Rotation>
-<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,-13.205,0,0,1</LocalMatrix>
+<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,-13.205,0,-5.53114,1</LocalMatrix>
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Basic</Type>
 <RigidBody>
@@ -2519,11 +2519,11 @@
 <Z Value="0" Scale="None" Actual="0"/>
 </LocalPosition>
 <Rotation>
-<X Value="-90.012" Scale="None" Actual="-90.012"/>
-<Y Value="1.134" Scale="None" Actual="1.134"/>
-<Z Value="-14.447" Scale="None" Actual="-14.447"/>
+<X Value="-87.398" Scale="None" Actual="-87.398"/>
+<Y Value="45.98" Scale="centi" Actual="0.4598"/>
+<Z Value="-14.483" Scale="None" Actual="-14.483"/>
 </Rotation>
-<LocalMatrix>0.968188,-0.0191077,0.249494,0,0.249442,-0.00513317,-0.968376,0,0.0197842,0.999804,-0.000203613,0,-13.205,0,0,1</LocalMatrix>
+<LocalMatrix>0.968189,-0.0191141,0.24949,0,0.250093,0.0419426,-0.967313,0,0.00802502,0.998937,0.0453886,0,-13.205,0,-5.53114,1</LocalMatrix>
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Plane</Type>
 <PartType>AnimatGUI.DataObjects.Physical.Bodies.Plane</PartType>
@@ -2670,28 +2670,6 @@
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.ExternalStimuli.RepetitiveCurrent</ClassName>
 <Name>Stimulus_1</Name>
-<ID>fbb7e2cc-1c20-4a02-9b61-047e091e8306</ID>
-<StartTime Value="2" Scale="None" Actual="2"/>
-<EndTime Value="8" Scale="None" Actual="8"/>
-<StepInterval Value="0" Scale="milli" Actual="0"/>
-<AlwaysActive>False</AlwaysActive>
-<Enabled>True</Enabled>
-<ValueType>Constant</ValueType>
-<Equation>0</Equation>
-<OrganismID>a4dc7663-e2d9-4867-b6e6-0f9fec75a505</OrganismID>
-<NodeID>7a13dcf1-688a-4d23-9599-7be3d7a1fdb3</NodeID>
-<CurrentOn Value="5" Scale="nano" Actual="5e-009"/>
-<CurrentOff Value="-5" Scale="nano" Actual="-5e-009"/>
-<CurrentBurstOff Value="0" Scale="nano" Actual="0"/>
-<CycleOnDuration Value="1" Scale="None" Actual="1"/>
-<CycleOffDuration Value="1" Scale="None" Actual="1"/>
-<BurstOnDuration Value="6" Scale="None" Actual="6"/>
-<BurstOffDuration Value="0" Scale="None" Actual="0"/>
-</Stimulus>
-<Stimulus>
-<AssemblyFile>AnimatGUI.dll</AssemblyFile>
-<ClassName>AnimatGUI.DataObjects.ExternalStimuli.RepetitiveCurrent</ClassName>
-<Name>Stimulus_1</Name>
 <ID>cef6b990-25d6-4260-941b-387739ca14d1</ID>
 <StartTime Value="2" Scale="None" Actual="2"/>
 <EndTime Value="8" Scale="None" Actual="8"/>
@@ -2710,11 +2688,33 @@
 <BurstOnDuration Value="6" Scale="None" Actual="6"/>
 <BurstOffDuration Value="0" Scale="None" Actual="0"/>
 </Stimulus>
+<Stimulus>
+<AssemblyFile>AnimatGUI.dll</AssemblyFile>
+<ClassName>AnimatGUI.DataObjects.ExternalStimuli.RepetitiveCurrent</ClassName>
+<Name>Stimulus_1</Name>
+<ID>fbb7e2cc-1c20-4a02-9b61-047e091e8306</ID>
+<StartTime Value="2" Scale="None" Actual="2"/>
+<EndTime Value="8" Scale="None" Actual="8"/>
+<StepInterval Value="0" Scale="milli" Actual="0"/>
+<AlwaysActive>False</AlwaysActive>
+<Enabled>True</Enabled>
+<ValueType>Constant</ValueType>
+<Equation>0</Equation>
+<OrganismID>a4dc7663-e2d9-4867-b6e6-0f9fec75a505</OrganismID>
+<NodeID>7a13dcf1-688a-4d23-9599-7be3d7a1fdb3</NodeID>
+<CurrentOn Value="5" Scale="nano" Actual="5e-009"/>
+<CurrentOff Value="-5" Scale="nano" Actual="-5e-009"/>
+<CurrentBurstOff Value="0" Scale="nano" Actual="0"/>
+<CycleOnDuration Value="1" Scale="None" Actual="1"/>
+<CycleOffDuration Value="1" Scale="None" Actual="1"/>
+<BurstOnDuration Value="6" Scale="None" Actual="6"/>
+<BurstOffDuration Value="0" Scale="None" Actual="0"/>
+</Stimulus>
 </Stimuli>
 <HudItems>
 <HudItem>
-<Name>a5c7c8d6-9d1b-4f8b-b299-3faeea9c70eb</Name>
-<ID>a5c7c8d6-9d1b-4f8b-b299-3faeea9c70eb</ID>
+<Name>ce46b891-0adb-40c2-8f9d-d057e0f6b021</Name>
+<ID>ce46b891-0adb-40c2-8f9d-d057e0f6b021</ID>
 <Type>HudText</Type>
 <CharSize>30</CharSize>
 <Text>Time: %3.3f</Text>
@@ -2827,7 +2827,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="04/03/2020 15:12:21"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="04/18/2020 17:39:23"&gt;
   &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 137" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
