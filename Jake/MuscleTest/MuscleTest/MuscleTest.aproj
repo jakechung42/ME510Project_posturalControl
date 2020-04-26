@@ -13,7 +13,7 @@
 <EnableSimRecording>True</EnableSimRecording>
 <SetSimEnd>True</SetSimEnd>
 <APIFile/>
-<SimEndTime Value="10.02" Scale="None" Actual="10.02"/>
+<SimEndTime Value="4.02" Scale="None" Actual="4.02"/>
 <PlaybackControlMode>MatchPhysicsStep</PlaybackControlMode>
 <PresetPlaybackTimeStep Value="0" Scale="milli" Actual="0"/>
 <Environment>
@@ -228,7 +228,7 @@
 </Transparencies>
 <IsVisible>True</IsVisible>
 <Ambient Red="0.0980392" Green="0.0980392" Blue="0.0980392" Alpha="1"/>
-<Diffuse Red="1" Green="0" Blue="0" Alpha="1"/>
+<Diffuse Red="1" Green="0" Blue="1" Alpha="1"/>
 <Specular Red="0.25098" Green="0.25098" Blue="0.25098" Alpha="1"/>
 <Shininess>64</Shininess>
 <Texture/>
@@ -305,9 +305,9 @@
 <Rotation>
 <X Value="0" Scale="None" Actual="0"/>
 <Y Value="0" Scale="None" Actual="0"/>
-<Z Value="0" Scale="None" Actual="0"/>
+<Z Value="90" Scale="None" Actual="90"/>
 </Rotation>
-<LocalMatrix>0.341767,0,-0.939785,0,0,1,0,0,0.939785,0,0.341767,0,1.26118,0.0023921,10.0372,1</LocalMatrix>
+<LocalMatrix>-6.96019e-005,1,0.00019139,0,-0.341767,-0.000203653,0.939785,0,0.939785,0,0.341767,0,1.26118,0.0023921,10.0372,1</LocalMatrix>
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Hinge</Type>
 <PartType>AnimatGUI.DataObjects.Physical.Joints.Hinge</PartType>
@@ -354,7 +354,7 @@
 <Relaxation5>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>a13f7778-b23d-40db-a06e-a5ad745e4ff8</ID>
+<ID>b872a2cf-85aa-4d55-b0cb-37efe189e1b5</ID>
 <Enabled>False</Enabled>
 <CoordinateID>4</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -363,7 +363,7 @@
 <Relaxation6>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>b872a2cf-85aa-4d55-b0cb-37efe189e1b5</ID>
+<ID>d3a36096-c0b0-4dd8-be80-f9737f0140a9</ID>
 <Enabled>False</Enabled>
 <CoordinateID>5</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -532,7 +532,7 @@
 <D Value="0" Scale="None" Actual="0"/>
 </StimulusTension>
 <LengthTension>
-<ID>839153c9-12cd-4c4b-95d3-d2df24229f79</ID>
+<ID>c31742e1-3f57-41fa-b4ea-1311f42aa4ad</ID>
 <Type>LengthTension</Type>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Gains.MuscleGains.LengthTension</ClassName>
@@ -540,13 +540,13 @@
 <LimitsReadOnly>False</LimitsReadOnly>
 <LimitOutputsReadOnly>False</LimitOutputsReadOnly>
 <UseParentIncomingDataType>True</UseParentIncomingDataType>
-<LowerLimitScale Value="10.062" Scale="centi" Actual="0.10062"/>
+<LowerLimitScale Value="5" Scale="centi" Actual="0.05"/>
 <UpperLimitScale Value="12.298" Scale="centi" Actual="0.12298"/>
 <LowerOutputScale Value="0" Scale="None" Actual="0"/>
 <UpperOutputScale Value="1" Scale="None" Actual="1"/>
 <IndependentUnits>Meters</IndependentUnits>
 <DependentUnits>% Isometric Tension Used</DependentUnits>
-<RestingLength Value="11.18" Scale="centi" Actual="0.1118"/>
+<RestingLength Value="15" Scale="centi" Actual="0.15"/>
 <Lwidth Value="3.354" Scale="centi" Actual="0.03354"/>
 <PeLength Value="90" Scale="None" Actual="90"/>
 <MinPeLength Value="5" Scale="None" Actual="5"/>
@@ -1496,7 +1496,7 @@
 <ID>3e28d3e3-3b20-4d30-b92a-7d6be8dd5704</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
+<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -1952,7 +1952,7 @@
 <Y Value="0" Scale="None" Actual="0"/>
 <Z Value="0" Scale="None" Actual="0"/>
 </Rotation>
-<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,0,2.15433,0,1</LocalMatrix>
+<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,0,2.1543,0,1</LocalMatrix>
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Basic</Type>
 <RigidBody>
@@ -1982,7 +1982,7 @@
 <Y Value="-4.291" Scale="None" Actual="-4.291"/>
 <Z Value="-10.469" Scale="None" Actual="-10.469"/>
 </Rotation>
-<LocalMatrix>0.980597,0.0675787,0.18402,0,0.181196,0.0458328,-0.982378,0,-0.074822,0.996661,0.0326985,0,0,2.15433,0,1</LocalMatrix>
+<LocalMatrix>0.980597,0.0675787,0.18402,0,0.181196,0.0458328,-0.982378,0,-0.074822,0.996661,0.0326985,0,0,2.1543,0,1</LocalMatrix>
 <DraggerSize Value="-1" Scale="Kilo" Actual="-1000"/>
 <Type>Plane</Type>
 <PartType>AnimatGUI.DataObjects.Physical.Bodies.Plane</PartType>
@@ -2123,8 +2123,8 @@
 <ClassName>AnimatGUI.DataObjects.ExternalStimuli.RepetitiveCurrent</ClassName>
 <Name>Stimulus_1</Name>
 <ID>c05e44a0-06e1-4132-84ff-2dd593c530f3</ID>
-<StartTime Value="1" Scale="None" Actual="1"/>
-<EndTime Value="10" Scale="None" Actual="10"/>
+<StartTime Value="0.2" Scale="None" Actual="0.2"/>
+<EndTime Value="4" Scale="None" Actual="4"/>
 <StepInterval Value="0" Scale="milli" Actual="0"/>
 <AlwaysActive>False</AlwaysActive>
 <Enabled>True</Enabled>
@@ -2137,14 +2137,14 @@
 <CurrentBurstOff Value="0" Scale="nano" Actual="0"/>
 <CycleOnDuration Value="0.5" Scale="None" Actual="0.5"/>
 <CycleOffDuration Value="0.5" Scale="None" Actual="0.5"/>
-<BurstOnDuration Value="9" Scale="None" Actual="9"/>
+<BurstOnDuration Value="3.8" Scale="None" Actual="3.8"/>
 <BurstOffDuration Value="0" Scale="None" Actual="0"/>
 </Stimulus>
 </Stimuli>
 <HudItems>
 <HudItem>
-<Name>b7a5b9c2-3964-4b7b-958c-d1a47f18c076</Name>
-<ID>b7a5b9c2-3964-4b7b-958c-d1a47f18c076</ID>
+<Name>e71cdafc-fb0c-4cb7-8ec8-9f78ac81f2a7</Name>
+<ID>e71cdafc-fb0c-4cb7-8ec8-9f78ac81f2a7</ID>
 <Type>HudText</Type>
 <CharSize>30</CharSize>
 <Text>Time: %3.3f</Text>
@@ -2238,7 +2238,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="04/22/2020 13:19:24"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="04/24/2020 14:20:27"&gt;
   &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 125" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
