@@ -24,27 +24,33 @@ Gp = 1/(I/d*s^2+b/d*s-m/d*g*L/2);
 
 h = figure;
 subplot(3,1,1)
-margin(Gp)
+bode(Gp)
 grid on
 %% Design the PD controller by finding the P and D constants
-Kd = 17720;
-Kp = 4.753;
-KpKd_ratio = 2.061;
+Kd = 11651;
+% Kp = 1.583;
+KpKd_ratio = 1.583;
 Gc = Kd*(KpKd_ratio + s);
 G = feedback(Gc*Gp,1);
 
 subplot(3,1,2)
-margin(Gc)
+bode(Gc)
 grid on
 
 subplot(3,1,3)
-margin(Gc*Gp)
+bode(Gc*Gp)
 grid on
 
 set(h,'Position',[1,41,700,1200]);
 
-figure 
+hh = figure;
+subplot(2,1,1)
 pzmap(Gp)
+subplot(2,1,2)
+impulse(G)
+grid on
+
+set(hh,'Position',[800,41,700,1200]);
 
 %% simulate the response
 % endSim = 2;
