@@ -349,6 +349,148 @@
 <RampGradient Value="45" Scale="None" Actual="45"/>
 </PID>
 </Joint>
+<ChildBodies>
+<RigidBody>
+<Name>T1_base</Name>
+<ID>aca1164c-85f8-4aea-a017-d72fd7e4215a</ID>
+<Description/>
+<Transparencies>
+<Graphics>0</Graphics>
+<Collisions>50</Collisions>
+<Joints>50</Joints>
+<RecFields>50</RecFields>
+<Simulation>0</Simulation>
+</Transparencies>
+<IsVisible>True</IsVisible>
+<Ambient Red="0.0980392" Green="0.0980392" Blue="0.0980392" Alpha="1"/>
+<Diffuse Red="1" Green="0.647059" Blue="0" Alpha="1"/>
+<Specular Red="0.25098" Green="0.25098" Blue="0.25098" Alpha="1"/>
+<Shininess>64</Shininess>
+<Texture/>
+<LocalPosition>
+<X Value="10" Scale="centi" Actual="0.1"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</LocalPosition>
+<Rotation>
+<X Value="0" Scale="None" Actual="0"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</Rotation>
+<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,0.1,3.43e-007,-6.7403e-008,1</LocalMatrix>
+<DraggerSize Value="-1" Scale="None" Actual="-1"/>
+<Type>Attachment</Type>
+<PartType>AnimatGUI.DataObjects.Physical.Bodies.Attachment</PartType>
+<SynchWithRobot>False</SynchWithRobot>
+<SynchUpdateInterval Value="0" Scale="milli" Actual="0"/>
+<IsContactSensor>False</IsContactSensor>
+<IsCollisionObject>False</IsCollisionObject>
+<IsStickyPart>False</IsStickyPart>
+<BuoyancyCenter>
+<X Value="0" Scale="None" Actual="0"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</BuoyancyCenter>
+<BuoyancyScale>1</BuoyancyScale>
+<LinearDrag>
+<X Value="1" Scale="None" Actual="1"/>
+<Y Value="1" Scale="None" Actual="1"/>
+<Z Value="1" Scale="None" Actual="1"/>
+</LinearDrag>
+<AngularDrag>
+<X Value="50" Scale="milli" Actual="0.05"/>
+<Y Value="50" Scale="milli" Actual="0.05"/>
+<Z Value="50" Scale="milli" Actual="0.05"/>
+</AngularDrag>
+<MaxHydroForce Value="50" Scale="None" Actual="50"/>
+<MaxHydroTorque Value="20" Scale="None" Actual="20"/>
+<Magnus>0</Magnus>
+<EnableFluids>False</EnableFluids>
+<Density Value="0" Scale="None" Actual="0"/>
+<Mass Value="1" Scale="Kilo" Actual="1000"/>
+<COM>
+<X Value="0" Scale="None" Actual="0"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</COM>
+<MaterialTypeID>DEFAULTMATERIAL</MaterialTypeID>
+<Freeze>False</Freeze>
+<FoodSource>False</FoodSource>
+<Radius Value="1" Scale="centi" Actual="0.01"/>
+<LatitudeSegments>20</LatitudeSegments>
+<LongtitudeSegments>20</LongtitudeSegments>
+</RigidBody>
+<RigidBody>
+<Name>T2_base</Name>
+<ID>b3207df2-27cd-42d0-92dc-89b2ab2dbcbc</ID>
+<Description/>
+<Transparencies>
+<Graphics>0</Graphics>
+<Collisions>50</Collisions>
+<Joints>50</Joints>
+<RecFields>50</RecFields>
+<Simulation>0</Simulation>
+</Transparencies>
+<IsVisible>True</IsVisible>
+<Ambient Red="0.0980392" Green="0.0980392" Blue="0.0980392" Alpha="1"/>
+<Diffuse Red="1" Green="0.647059" Blue="0" Alpha="1"/>
+<Specular Red="0.25098" Green="0.25098" Blue="0.25098" Alpha="1"/>
+<Shininess>64</Shininess>
+<Texture/>
+<LocalPosition>
+<X Value="-10" Scale="centi" Actual="-0.1"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</LocalPosition>
+<Rotation>
+<X Value="0" Scale="None" Actual="0"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</Rotation>
+<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,-0.1,3.43e-007,-6.7403e-008,1</LocalMatrix>
+<DraggerSize Value="-1" Scale="None" Actual="-1"/>
+<Type>Attachment</Type>
+<PartType>AnimatGUI.DataObjects.Physical.Bodies.Attachment</PartType>
+<SynchWithRobot>False</SynchWithRobot>
+<SynchUpdateInterval Value="0" Scale="milli" Actual="0"/>
+<IsContactSensor>False</IsContactSensor>
+<IsCollisionObject>False</IsCollisionObject>
+<IsStickyPart>False</IsStickyPart>
+<BuoyancyCenter>
+<X Value="0" Scale="None" Actual="0"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</BuoyancyCenter>
+<BuoyancyScale>1</BuoyancyScale>
+<LinearDrag>
+<X Value="1" Scale="None" Actual="1"/>
+<Y Value="1" Scale="None" Actual="1"/>
+<Z Value="1" Scale="None" Actual="1"/>
+</LinearDrag>
+<AngularDrag>
+<X Value="50" Scale="milli" Actual="0.05"/>
+<Y Value="50" Scale="milli" Actual="0.05"/>
+<Z Value="50" Scale="milli" Actual="0.05"/>
+</AngularDrag>
+<MaxHydroForce Value="50" Scale="None" Actual="50"/>
+<MaxHydroTorque Value="20" Scale="None" Actual="20"/>
+<Magnus>0</Magnus>
+<EnableFluids>False</EnableFluids>
+<Density Value="0" Scale="None" Actual="0"/>
+<Mass Value="1" Scale="Kilo" Actual="1000"/>
+<COM>
+<X Value="0" Scale="None" Actual="0"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</COM>
+<MaterialTypeID>DEFAULTMATERIAL</MaterialTypeID>
+<Freeze>False</Freeze>
+<FoodSource>False</FoodSource>
+<Radius Value="1" Scale="centi" Actual="0.01"/>
+<LatitudeSegments>20</LatitudeSegments>
+<LongtitudeSegments>20</LongtitudeSegments>
+</RigidBody>
+</ChildBodies>
 <FoodSource>False</FoodSource>
 <Length Value="100" Scale="centi" Actual="1"/>
 <Width Value="5" Scale="centi" Actual="0.05"/>
@@ -356,6 +498,280 @@
 <LengthSections>1</LengthSections>
 <WidthSections>1</WidthSections>
 <HeightSections>1</HeightSections>
+</RigidBody>
+<RigidBody>
+<Name>T2</Name>
+<ID>4e94ae80-a153-47d4-aac1-b9784d542aab</ID>
+<Type>LinearHillMuscle</Type>
+<PartType>AnimatGUI.DataObjects.Physical.Bodies.LinearHillMuscle</PartType>
+<Description/>
+<Transparencies>
+<Graphics>0</Graphics>
+<Collisions>50</Collisions>
+<Joints>50</Joints>
+<RecFields>50</RecFields>
+<Simulation>0</Simulation>
+</Transparencies>
+<IsVisible>True</IsVisible>
+<Enabled>True</Enabled>
+<Ambient Red="0.0980392" Green="0.0980392" Blue="0.0980392" Alpha="1"/>
+<Diffuse Red="0" Green="0" Blue="1" Alpha="1"/>
+<Attachments>
+<AttachID>b3207df2-27cd-42d0-92dc-89b2ab2dbcbc</AttachID>
+<AttachID>503078d4-2a80-46f1-acca-94d5ca23a069</AttachID>
+</Attachments>
+<StimulusTension>
+<ID>efb2801f-8ebe-4bfa-9a0f-95cfd55481b8</ID>
+<Type>StimulusTension</Type>
+<AssemblyFile>AnimatGUI.dll</AssemblyFile>
+<ClassName>AnimatGUI.DataObjects.Gains.MuscleGains.StimulusTension</ClassName>
+<UseLimits>False</UseLimits>
+<LimitsReadOnly>False</LimitsReadOnly>
+<LimitOutputsReadOnly>False</LimitOutputsReadOnly>
+<UseParentIncomingDataType>True</UseParentIncomingDataType>
+<LowerLimitScale Value="-100" Scale="milli" Actual="-0.1"/>
+<UpperLimitScale Value="0" Scale="milli" Actual="0"/>
+<LowerOutputScale Value="0" Scale="None" Actual="0"/>
+<UpperOutputScale Value="6" Scale="None" Actual="6"/>
+<IndependentUnits>Membrane Voltage (V)</IndependentUnits>
+<DependentUnits>Contractile Tension (N)</DependentUnits>
+<A Value="-40" Scale="milli" Actual="-0.04"/>
+<B Value="5" Scale="None" Actual="5"/>
+<C Value="100" Scale="None" Actual="100"/>
+<D Value="0" Scale="None" Actual="0"/>
+</StimulusTension>
+<LengthTension>
+<ID>ef320340-58d8-4dce-8475-7f6c4abffac4</ID>
+<Type>LengthTension</Type>
+<AssemblyFile>AnimatGUI.dll</AssemblyFile>
+<ClassName>AnimatGUI.DataObjects.Gains.MuscleGains.LengthTension</ClassName>
+<UseLimits>False</UseLimits>
+<LimitsReadOnly>False</LimitsReadOnly>
+<LimitOutputsReadOnly>False</LimitOutputsReadOnly>
+<UseParentIncomingDataType>True</UseParentIncomingDataType>
+<LowerLimitScale Value="46.71" Scale="centi" Actual="0.4671"/>
+<UpperLimitScale Value="57.09" Scale="centi" Actual="0.5709"/>
+<LowerOutputScale Value="0" Scale="None" Actual="0"/>
+<UpperOutputScale Value="1" Scale="None" Actual="1"/>
+<IndependentUnits>Meters</IndependentUnits>
+<DependentUnits>% Isometric Tension Used</DependentUnits>
+<RestingLength Value="0.519" Scale="None" Actual="0.519"/>
+<Lwidth Value="0.156" Scale="None" Actual="0.156"/>
+<PeLength Value="90" Scale="None" Actual="90"/>
+<MinPeLength Value="5" Scale="None" Actual="5"/>
+</LengthTension>
+<MaximumTension Value="100" Scale="None" Actual="100"/>
+<Kse Value="10" Scale="None" Actual="10"/>
+<Kpe Value="1" Scale="None" Actual="1"/>
+<B Value="1" Scale="None" Actual="1"/>
+<IbDischarge Value="100" Scale="None" Actual="100"/>
+</RigidBody>
+<RigidBody>
+<Name>T2_top</Name>
+<ID>503078d4-2a80-46f1-acca-94d5ca23a069</ID>
+<Description/>
+<Transparencies>
+<Graphics>0</Graphics>
+<Collisions>50</Collisions>
+<Joints>50</Joints>
+<RecFields>50</RecFields>
+<Simulation>0</Simulation>
+</Transparencies>
+<IsVisible>True</IsVisible>
+<Ambient Red="0.0980392" Green="0.0980392" Blue="0.0980392" Alpha="1"/>
+<Diffuse Red="1" Green="0.647059" Blue="0" Alpha="1"/>
+<Specular Red="0.25098" Green="0.25098" Blue="0.25098" Alpha="1"/>
+<Shininess>64</Shininess>
+<Texture/>
+<LocalPosition>
+<X Value="-50" Scale="milli" Actual="-0.05"/>
+<Y Value="81.054" Scale="micro" Actual="8.1054e-005"/>
+<Z Value="39.8" Scale="centi" Actual="0.398"/>
+</LocalPosition>
+<Rotation>
+<X Value="0" Scale="None" Actual="0"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</Rotation>
+<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,-0.05,8.1054e-005,0.398,1</LocalMatrix>
+<DraggerSize Value="-1" Scale="None" Actual="-1"/>
+<Type>Attachment</Type>
+<PartType>AnimatGUI.DataObjects.Physical.Bodies.Attachment</PartType>
+<SynchWithRobot>False</SynchWithRobot>
+<SynchUpdateInterval Value="0" Scale="milli" Actual="0"/>
+<IsContactSensor>False</IsContactSensor>
+<IsCollisionObject>False</IsCollisionObject>
+<IsStickyPart>False</IsStickyPart>
+<BuoyancyCenter>
+<X Value="0" Scale="None" Actual="0"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</BuoyancyCenter>
+<BuoyancyScale>1</BuoyancyScale>
+<LinearDrag>
+<X Value="1" Scale="None" Actual="1"/>
+<Y Value="1" Scale="None" Actual="1"/>
+<Z Value="1" Scale="None" Actual="1"/>
+</LinearDrag>
+<AngularDrag>
+<X Value="50" Scale="milli" Actual="0.05"/>
+<Y Value="50" Scale="milli" Actual="0.05"/>
+<Z Value="50" Scale="milli" Actual="0.05"/>
+</AngularDrag>
+<MaxHydroForce Value="50" Scale="None" Actual="50"/>
+<MaxHydroTorque Value="20" Scale="None" Actual="20"/>
+<Magnus>0</Magnus>
+<EnableFluids>False</EnableFluids>
+<Density Value="0" Scale="None" Actual="0"/>
+<Mass Value="1" Scale="Kilo" Actual="1000"/>
+<COM>
+<X Value="0" Scale="None" Actual="0"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</COM>
+<MaterialTypeID>DEFAULTMATERIAL</MaterialTypeID>
+<Freeze>False</Freeze>
+<FoodSource>False</FoodSource>
+<Radius Value="1" Scale="centi" Actual="0.01"/>
+<LatitudeSegments>20</LatitudeSegments>
+<LongtitudeSegments>20</LongtitudeSegments>
+</RigidBody>
+<RigidBody>
+<Name>T1</Name>
+<ID>5a3ea4b3-1f4e-4b84-8f1a-65c51d512b4e</ID>
+<Type>LinearHillMuscle</Type>
+<PartType>AnimatGUI.DataObjects.Physical.Bodies.LinearHillMuscle</PartType>
+<Description/>
+<Transparencies>
+<Graphics>0</Graphics>
+<Collisions>50</Collisions>
+<Joints>50</Joints>
+<RecFields>50</RecFields>
+<Simulation>0</Simulation>
+</Transparencies>
+<IsVisible>True</IsVisible>
+<Enabled>True</Enabled>
+<Ambient Red="0.0980392" Green="0.0980392" Blue="0.0980392" Alpha="1"/>
+<Diffuse Red="0" Green="0" Blue="1" Alpha="1"/>
+<Attachments>
+<AttachID>aca1164c-85f8-4aea-a017-d72fd7e4215a</AttachID>
+<AttachID>62034be9-32f2-48f3-8cd7-e63f5574fab1</AttachID>
+</Attachments>
+<StimulusTension>
+<ID>d869112b-375d-4aa3-b802-107d70efc6de</ID>
+<Type>StimulusTension</Type>
+<AssemblyFile>AnimatGUI.dll</AssemblyFile>
+<ClassName>AnimatGUI.DataObjects.Gains.MuscleGains.StimulusTension</ClassName>
+<UseLimits>False</UseLimits>
+<LimitsReadOnly>False</LimitsReadOnly>
+<LimitOutputsReadOnly>False</LimitOutputsReadOnly>
+<UseParentIncomingDataType>True</UseParentIncomingDataType>
+<LowerLimitScale Value="-100" Scale="milli" Actual="-0.1"/>
+<UpperLimitScale Value="0" Scale="milli" Actual="0"/>
+<LowerOutputScale Value="0" Scale="None" Actual="0"/>
+<UpperOutputScale Value="6" Scale="None" Actual="6"/>
+<IndependentUnits>Membrane Voltage (V)</IndependentUnits>
+<DependentUnits>Contractile Tension (N)</DependentUnits>
+<A Value="-40" Scale="milli" Actual="-0.04"/>
+<B Value="5" Scale="None" Actual="5"/>
+<C Value="100" Scale="None" Actual="100"/>
+<D Value="0" Scale="None" Actual="0"/>
+</StimulusTension>
+<LengthTension>
+<ID>58d01778-0c6e-4667-b846-4c3d54166c8b</ID>
+<Type>LengthTension</Type>
+<AssemblyFile>AnimatGUI.dll</AssemblyFile>
+<ClassName>AnimatGUI.DataObjects.Gains.MuscleGains.LengthTension</ClassName>
+<UseLimits>False</UseLimits>
+<LimitsReadOnly>False</LimitsReadOnly>
+<LimitOutputsReadOnly>False</LimitOutputsReadOnly>
+<UseParentIncomingDataType>True</UseParentIncomingDataType>
+<LowerLimitScale Value="46.71" Scale="centi" Actual="0.4671"/>
+<UpperLimitScale Value="57.09" Scale="centi" Actual="0.5709"/>
+<LowerOutputScale Value="0" Scale="None" Actual="0"/>
+<UpperOutputScale Value="1" Scale="None" Actual="1"/>
+<IndependentUnits>Meters</IndependentUnits>
+<DependentUnits>% Isometric Tension Used</DependentUnits>
+<RestingLength Value="0.519" Scale="None" Actual="0.519"/>
+<Lwidth Value="0.156" Scale="None" Actual="0.156"/>
+<PeLength Value="90" Scale="None" Actual="90"/>
+<MinPeLength Value="5" Scale="None" Actual="5"/>
+</LengthTension>
+<MaximumTension Value="100" Scale="None" Actual="100"/>
+<Kse Value="10" Scale="None" Actual="10"/>
+<Kpe Value="1" Scale="None" Actual="1"/>
+<B Value="1" Scale="None" Actual="1"/>
+<IbDischarge Value="100" Scale="None" Actual="100"/>
+</RigidBody>
+<RigidBody>
+<Name>T1_top</Name>
+<ID>62034be9-32f2-48f3-8cd7-e63f5574fab1</ID>
+<Description/>
+<Transparencies>
+<Graphics>0</Graphics>
+<Collisions>50</Collisions>
+<Joints>50</Joints>
+<RecFields>50</RecFields>
+<Simulation>0</Simulation>
+</Transparencies>
+<IsVisible>True</IsVisible>
+<Ambient Red="0.0980392" Green="0.0980392" Blue="0.0980392" Alpha="1"/>
+<Diffuse Red="1" Green="0.647059" Blue="0" Alpha="1"/>
+<Specular Red="0.25098" Green="0.25098" Blue="0.25098" Alpha="1"/>
+<Shininess>64</Shininess>
+<Texture/>
+<LocalPosition>
+<X Value="50" Scale="milli" Actual="0.05"/>
+<Y Value="81.054" Scale="micro" Actual="8.1054e-005"/>
+<Z Value="39.8" Scale="centi" Actual="0.398"/>
+</LocalPosition>
+<Rotation>
+<X Value="0" Scale="None" Actual="0"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</Rotation>
+<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,0.05,8.1054e-005,0.398,1</LocalMatrix>
+<DraggerSize Value="-1" Scale="None" Actual="-1"/>
+<Type>Attachment</Type>
+<PartType>AnimatGUI.DataObjects.Physical.Bodies.Attachment</PartType>
+<SynchWithRobot>False</SynchWithRobot>
+<SynchUpdateInterval Value="0" Scale="milli" Actual="0"/>
+<IsContactSensor>False</IsContactSensor>
+<IsCollisionObject>False</IsCollisionObject>
+<IsStickyPart>False</IsStickyPart>
+<BuoyancyCenter>
+<X Value="0" Scale="None" Actual="0"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</BuoyancyCenter>
+<BuoyancyScale>1</BuoyancyScale>
+<LinearDrag>
+<X Value="1" Scale="None" Actual="1"/>
+<Y Value="1" Scale="None" Actual="1"/>
+<Z Value="1" Scale="None" Actual="1"/>
+</LinearDrag>
+<AngularDrag>
+<X Value="50" Scale="milli" Actual="0.05"/>
+<Y Value="50" Scale="milli" Actual="0.05"/>
+<Z Value="50" Scale="milli" Actual="0.05"/>
+</AngularDrag>
+<MaxHydroForce Value="50" Scale="None" Actual="50"/>
+<MaxHydroTorque Value="20" Scale="None" Actual="20"/>
+<Magnus>0</Magnus>
+<EnableFluids>False</EnableFluids>
+<Density Value="0" Scale="None" Actual="0"/>
+<Mass Value="1" Scale="Kilo" Actual="1000"/>
+<COM>
+<X Value="0" Scale="None" Actual="0"/>
+<Y Value="0" Scale="None" Actual="0"/>
+<Z Value="0" Scale="None" Actual="0"/>
+</COM>
+<MaterialTypeID>DEFAULTMATERIAL</MaterialTypeID>
+<Freeze>False</Freeze>
+<FoodSource>False</FoodSource>
+<Radius Value="1" Scale="centi" Actual="0.01"/>
+<LatitudeSegments>20</LatitudeSegments>
+<LongtitudeSegments>20</LongtitudeSegments>
 </RigidBody>
 </ChildBodies>
 <FoodSource>False</FoodSource>
@@ -1371,7 +1787,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/20/2020 13:25:21"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/20/2020 13:34:15"&gt;
   &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 125" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
