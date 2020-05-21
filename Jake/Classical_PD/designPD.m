@@ -47,7 +47,7 @@ hh = figure;
 subplot(2,1,1)
 pzmap(Gp)
 subplot(2,1,2)
-impulse(G)
+step(G)
 grid on
 
 set(hh,'Position',[800,41,700,1200]);
