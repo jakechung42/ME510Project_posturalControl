@@ -16,6 +16,32 @@
 <Axis>
 <AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
 <ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DAxis</ClassName>
+<Name>JointAngle</Name>
+<WorkingAxis>1</WorkingAxis>
+<DataColumns>
+<DataColumn>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
+<Name>Joint_1</Name>
+<ID>438356cf-9689-4991-9234-86647e5d5a4f</ID>
+<DataItemAssemblyFile>AnimatGUI.dll</DataItemAssemblyFile>
+<DataItemClassName>AnimatGUI.DataObjects.Physical.Joints.Hinge</DataItemClassName>
+<StructureID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</StructureID>
+<DataItemID>9d8bde90-0fb6-4313-8c63-b06ac20cd6ff</DataItemID>
+<SelectedDataType>JointRotation</SelectedDataType>
+<DataSubSet>2</DataSubSet>
+<PrevDataSubset>2</PrevDataSubset>
+<UseIncomingDataType>False</UseIncomingDataType>
+<LineType>MediumSolid</LineType>
+<PointType>Plus</PointType>
+<PlotMethodType>Line</PlotMethodType>
+<LineColor>-16776961</LineColor>
+</DataColumn>
+</DataColumns>
+</Axis>
+<Axis>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DAxis</ClassName>
 <Name>Muscle Tension</Name>
 <WorkingAxis>2</WorkingAxis>
 <DataColumns>
@@ -60,7 +86,7 @@
 <Axis>
 <AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
 <ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DAxis</ClassName>
-<Name>Y Axis 1</Name>
+<Name>Neuron</Name>
 <WorkingAxis>0</WorkingAxis>
 <DataColumns>
 <DataColumn>
@@ -104,26 +130,44 @@
 <Axis>
 <AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
 <ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DAxis</ClassName>
-<Name>Y Axis 2</Name>
-<WorkingAxis>1</WorkingAxis>
+<Name>Tension-Length Percentage</Name>
+<WorkingAxis>3</WorkingAxis>
 <DataColumns>
 <DataColumn>
 <AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
 <ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
-<Name>Joint_1</Name>
-<ID>438356cf-9689-4991-9234-86647e5d5a4f</ID>
+<Name>T2</Name>
+<ID>899dedd2-510f-41f1-9eeb-a97fc0ababed</ID>
 <DataItemAssemblyFile>AnimatGUI.dll</DataItemAssemblyFile>
-<DataItemClassName>AnimatGUI.DataObjects.Physical.Joints.Hinge</DataItemClassName>
+<DataItemClassName>AnimatGUI.DataObjects.Physical.Bodies.LinearHillMuscle</DataItemClassName>
 <StructureID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</StructureID>
-<DataItemID>9d8bde90-0fb6-4313-8c63-b06ac20cd6ff</DataItemID>
-<SelectedDataType>JointRotation</SelectedDataType>
-<DataSubSet>2</DataSubSet>
-<PrevDataSubset>2</PrevDataSubset>
+<DataItemID>4e94ae80-a153-47d4-aac1-b9784d542aab</DataItemID>
+<SelectedDataType>Tl</SelectedDataType>
+<DataSubSet>5</DataSubSet>
+<PrevDataSubset>5</PrevDataSubset>
 <UseIncomingDataType>False</UseIncomingDataType>
 <LineType>MediumSolid</LineType>
 <PointType>Plus</PointType>
 <PlotMethodType>Line</PlotMethodType>
-<LineColor>-16776961</LineColor>
+<LineColor>-16711936</LineColor>
+</DataColumn>
+<DataColumn>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
+<Name>T1</Name>
+<ID>fb334bbb-2c97-4cff-9a36-7c46f2147461</ID>
+<DataItemAssemblyFile>AnimatGUI.dll</DataItemAssemblyFile>
+<DataItemClassName>AnimatGUI.DataObjects.Physical.Bodies.LinearHillMuscle</DataItemClassName>
+<StructureID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</StructureID>
+<DataItemID>5a3ea4b3-1f4e-4b84-8f1a-65c51d512b4e</DataItemID>
+<SelectedDataType>Tl</SelectedDataType>
+<DataSubSet>6</DataSubSet>
+<PrevDataSubset>6</PrevDataSubset>
+<UseIncomingDataType>False</UseIncomingDataType>
+<LineType>MediumSolid</LineType>
+<PointType>Plus</PointType>
+<PlotMethodType>Line</PlotMethodType>
+<LineColor>-65536</LineColor>
 </DataColumn>
 </DataColumns>
 </Axis>
@@ -132,6 +176,6 @@
 <UpdateChartAtEnd>True</UpdateChartAtEnd>
 <PointsToKeep>55000</PointsToKeep>
 <YAxisOffset>0</YAxisOffset>
-<GraphConfig ByteCount="8972"/>
+<GraphConfig ByteCount="9002"/>
 </Form>
 </Form>

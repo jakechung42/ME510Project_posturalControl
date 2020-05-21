@@ -14,7 +14,7 @@
 <SetSimEnd>True</SetSimEnd>
 <APIFile/>
 <SimEndTime Value="10.5" Scale="None" Actual="10.5"/>
-<PlaybackControlMode>MatchPhysicsStep</PlaybackControlMode>
+<PlaybackControlMode>FastestPossible</PlaybackControlMode>
 <PresetPlaybackTimeStep Value="0" Scale="milli" Actual="0"/>
 <Environment>
 <PhysicsTimeStep Value="0.6" Scale="milli" Actual="0.0006"/>
@@ -68,15 +68,15 @@
 <Texture/>
 <LocalPosition>
 <X Value="0" Scale="None" Actual="0"/>
-<Y Value="96.5" Scale="centi" Actual="0.965"/>
-<Z Value="0" Scale="None" Actual="0"/>
+<Y Value="1.065" Scale="None" Actual="1.065"/>
+<Z Value="-10" Scale="centi" Actual="-0.1"/>
 </LocalPosition>
 <Rotation>
 <X Value="0" Scale="None" Actual="0"/>
 <Y Value="0" Scale="None" Actual="0"/>
 <Z Value="0" Scale="None" Actual="0"/>
 </Rotation>
-<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,0,0.965,0,1</LocalMatrix>
+<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,0,1.06502,-0.1,1</LocalMatrix>
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Basic</Type>
 <RigidBody>
@@ -106,7 +106,7 @@
 <Y Value="0" Scale="None" Actual="0"/>
 <Z Value="0" Scale="None" Actual="0"/>
 </Rotation>
-<LocalMatrix>1,0,0,0,0,-0.000203653,1,0,0,-1,-0.000203653,0,0,0.965,0,1</LocalMatrix>
+<LocalMatrix>1,0,0,0,0,-0.000203653,1,0,0,-1,-0.000203653,0,0,1.06502,-0.1,1</LocalMatrix>
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Cylinder</Type>
 <PartType>AnimatGUI.DataObjects.Physical.Bodies.Cylinder</PartType>
@@ -139,7 +139,7 @@
 <Mass Value="82" Scale="Kilo" Actual="82000"/>
 <COM>
 <X Value="0" Scale="None" Actual="0"/>
-<Y Value="0" Scale="None" Actual="0"/>
+<Y Value="0" Scale="centi" Actual="0"/>
 <Z Value="0" Scale="None" Actual="0"/>
 </COM>
 <MaterialTypeID>DEFAULTMATERIAL</MaterialTypeID>
@@ -172,7 +172,7 @@
 <Y Value="0" Scale="None" Actual="0"/>
 <Z Value="0" Scale="None" Actual="0"/>
 </Rotation>
-<LocalMatrix>1,0,0,0,0,-0.000203653,1,0,0,-1,-0.000203653,0,0,0.0499999,-3.4266e-007,1</LocalMatrix>
+<LocalMatrix>1,0,0,0,0,-0.000203653,1,0,0,-1,-0.000203653,0,0,0.15002,-0.1,1</LocalMatrix>
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Box</Type>
 <PartType>AnimatGUI.DataObjects.Physical.Bodies.Box</PartType>
@@ -243,7 +243,7 @@
 <PartType>AnimatGUI.DataObjects.Physical.Joints.Hinge</PartType>
 <SynchWithRobot>False</SynchWithRobot>
 <SynchUpdateInterval Value="0" Scale="milli" Actual="0"/>
-<Size Value="2" Scale="centi" Actual="0.02"/>
+<Size Value="5" Scale="centi" Actual="0.05"/>
 <EnableLimits>True</EnableLimits>
 <Relaxation1>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
@@ -284,7 +284,7 @@
 <Relaxation5>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>564046fe-7234-4f28-b552-2b065ad3c1de</ID>
+<ID>76e78a53-04fa-40fc-ba7d-d967bf8ab2aa</ID>
 <Enabled>False</Enabled>
 <CoordinateID>4</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -293,7 +293,7 @@
 <Relaxation6>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>76e78a53-04fa-40fc-ba7d-d967bf8ab2aa</ID>
+<ID>554e7303-cacd-49ed-80ba-0dd53dd7c199</ID>
 <Enabled>False</Enabled>
 <CoordinateID>5</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -327,10 +327,10 @@
 <Restitution Value="0" Scale="None" Actual="0"/>
 <Stiffness Value="100" Scale="None" Actual="100"/>
 </UpperLimit>
-<MaxForce Value="100" Scale="None" Actual="100"/>
+<MaxForce Value="500" Scale="None" Actual="500"/>
 <MaxVelocity Value="100" Scale="None" Actual="100"/>
 <EnableMotor>False</EnableMotor>
-<MotorType>VelocityControl</MotorType>
+<MotorType>PositionControl</MotorType>
 <ServoGain>100</ServoGain>
 <PID>
 <ID>5e5296aa-ed1e-4aa7-bb71-f715f256c910</ID>
@@ -658,7 +658,7 @@
 <AttachID>62034be9-32f2-48f3-8cd7-e63f5574fab1</AttachID>
 </Attachments>
 <StimulusTension>
-<ID>de1a6954-18c9-4fbd-a64a-456f0c15114c</ID>
+<ID>23dc0ac6-8e9f-4c18-b376-57599df414d5</ID>
 <Type>StimulusTension</Type>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Gains.MuscleGains.StimulusTension</ClassName>
@@ -673,7 +673,7 @@
 <IndependentUnits>Membrane Voltage (V)</IndependentUnits>
 <DependentUnits>Contractile Tension (N)</DependentUnits>
 <A Value="-40" Scale="milli" Actual="-0.04"/>
-<B Value="10" Scale="None" Actual="10"/>
+<B Value="50" Scale="None" Actual="50"/>
 <C Value="100" Scale="None" Actual="100"/>
 <D Value="0" Scale="None" Actual="0"/>
 </StimulusTension>
@@ -1348,7 +1348,7 @@
 <ID>cd284cf2-942a-4c60-ade8-8e2e4788bfc7</ID>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Behavior.PhysicsModule</ClassName>
-<TimeStep Value="2.5" Scale="milli" Actual="0.0025"/>
+<TimeStep Value="0.6" Scale="milli" Actual="0.0006"/>
 </Node>
 </NeuralModules>
 <Node>
@@ -1465,7 +1465,7 @@
 <UpperLimitScale Value="100" Scale="milli" Actual="0.1"/>
 <LowerOutputScale Value="0" Scale="None" Actual="0"/>
 <UpperOutputScale Value="1" Scale="None" Actual="1"/>
-<IndependentUnits>Input Variable</IndependentUnits>
+<IndependentUnits/>
 <DependentUnits>Output Variable</DependentUnits>
 <A Value="0" Scale="None" Actual="0"/>
 <B Value="0" Scale="None" Actual="0"/>
@@ -1800,7 +1800,7 @@
 <UpperLimitScale Value="100" Scale="milli" Actual="0.1"/>
 <LowerOutputScale Value="0" Scale="None" Actual="0"/>
 <UpperOutputScale Value="1" Scale="None" Actual="1"/>
-<IndependentUnits>Input Variable</IndependentUnits>
+<IndependentUnits/>
 <DependentUnits>Output Variable</DependentUnits>
 <A Value="0" Scale="None" Actual="0"/>
 <B Value="0" Scale="None" Actual="0"/>
@@ -2305,7 +2305,7 @@
 <Equation>0</Equation>
 <OrganismID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</OrganismID>
 <NodeID>4fc755a9-f631-467d-9d9f-a6bfd3b95e57</NodeID>
-<CurrentOn Value="10" Scale="nano" Actual="1e-008"/>
+<CurrentOn Value="40" Scale="nano" Actual="4e-008"/>
 <CurrentOff Value="0" Scale="nano" Actual="0"/>
 <CurrentBurstOff Value="0" Scale="nano" Actual="0"/>
 <CycleOnDuration Value="2" Scale="None" Actual="2"/>
@@ -2313,11 +2313,50 @@
 <BurstOnDuration Value="10" Scale="None" Actual="10"/>
 <BurstOffDuration Value="0" Scale="None" Actual="0"/>
 </Stimulus>
+<Stimulus>
+<AssemblyFile>AnimatGUI.dll</AssemblyFile>
+<ClassName>AnimatGUI.DataObjects.ExternalStimuli.MotorPosition</ClassName>
+<Name>Stimulus_1</Name>
+<ID>29503a07-484d-42a4-9dc5-e82cd8bca8f1</ID>
+<StartTime Value="0" Scale="None" Actual="0"/>
+<EndTime Value="10" Scale="None" Actual="10"/>
+<StepInterval Value="0" Scale="milli" Actual="0"/>
+<AlwaysActive>False</AlwaysActive>
+<Enabled>False</Enabled>
+<ValueType>Constant</ValueType>
+<Equation>0</Equation>
+<StructureID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</StructureID>
+<PartID>9d8bde90-0fb6-4313-8c63-b06ac20cd6ff</PartID>
+<Velocity Value="-0.5" Scale="None" Actual="-0.5"/>
+<DisableMotorWhenDone>False</DisableMotorWhenDone>
+</Stimulus>
+<Stimulus>
+<AssemblyFile>AnimatGUI.dll</AssemblyFile>
+<ClassName>AnimatGUI.DataObjects.ExternalStimuli.TonicCurrent</ClassName>
+<Name>Stimulus_2</Name>
+<ID>803f2ea6-d790-4044-adfc-66f93417cf8c</ID>
+<StartTime Value="0" Scale="None" Actual="0"/>
+<EndTime Value="10" Scale="None" Actual="10"/>
+<StepInterval Value="0" Scale="milli" Actual="0"/>
+<AlwaysActive>True</AlwaysActive>
+<Enabled>True</Enabled>
+<ValueType>Constant</ValueType>
+<Equation>0</Equation>
+<OrganismID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</OrganismID>
+<NodeID>68a91477-7c2f-49d5-af2f-7026d191b0a7</NodeID>
+<CurrentOn Value="40" Scale="nano" Actual="4e-008"/>
+<CurrentOff Value="0" Scale="nano" Actual="0"/>
+<CurrentBurstOff Value="0" Scale="nano" Actual="0"/>
+<CycleOnDuration Value="10" Scale="None" Actual="10"/>
+<CycleOffDuration Value="0" Scale="None" Actual="0"/>
+<BurstOnDuration Value="10" Scale="None" Actual="10"/>
+<BurstOffDuration Value="0" Scale="None" Actual="0"/>
+</Stimulus>
 </Stimuli>
 <HudItems>
 <HudItem>
-<Name>7dabf681-66e9-4bbe-bdfc-338d1074b00d</Name>
-<ID>7dabf681-66e9-4bbe-bdfc-338d1074b00d</ID>
+<Name>a8b69eaa-9964-4e56-b06c-a8c3e786aca5</Name>
+<ID>a8b69eaa-9964-4e56-b06c-a8c3e786aca5</ID>
 <Type>HudText</Type>
 <CharSize>30</CharSize>
 <Text>Time: %3.3f</Text>
@@ -2411,7 +2450,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/20/2020 14:35:02"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/20/2020 16:59:51"&gt;
   &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 125" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
@@ -2858,7 +2897,7 @@
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
-      &lt;Page Title="DataTool_1" ImageList="True" ImageIndex="2" Selected="False" Control="null" UniqueName=""&gt;
+      &lt;Page Title="DataTool_1" ImageList="True" ImageIndex="1" Selected="True" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
 &lt;ID&gt;0f31cd09-b029-4519-b7cb-12291eff42a0&lt;/ID&gt;
@@ -2871,7 +2910,7 @@
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
-      &lt;Page Title="Neural Subsystem" ImageList="True" ImageIndex="1" Selected="True" Control="null" UniqueName=""&gt;
+      &lt;Page Title="Neural Subsystem" ImageList="True" ImageIndex="2" Selected="False" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
 &lt;ID&gt;d478c6a4-d7a2-4e8d-8e91-dd358a0a2bc2&lt;/ID&gt;
