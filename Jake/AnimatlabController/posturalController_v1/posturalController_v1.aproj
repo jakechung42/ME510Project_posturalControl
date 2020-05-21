@@ -14,7 +14,7 @@
 <SetSimEnd>True</SetSimEnd>
 <APIFile/>
 <SimEndTime Value="10.5" Scale="None" Actual="10.5"/>
-<PlaybackControlMode>FastestPossible</PlaybackControlMode>
+<PlaybackControlMode>MatchPhysicsStep</PlaybackControlMode>
 <PresetPlaybackTimeStep Value="0" Scale="milli" Actual="0"/>
 <Environment>
 <PhysicsTimeStep Value="0.6" Scale="milli" Actual="0.0006"/>
@@ -521,7 +521,7 @@
 <AttachID>503078d4-2a80-46f1-acca-94d5ca23a069</AttachID>
 </Attachments>
 <StimulusTension>
-<ID>6ad84b56-1ef2-4d02-9fba-f50639b94011</ID>
+<ID>cc5a545c-b6e9-4c45-aec4-192e50cdc459</ID>
 <Type>StimulusTension</Type>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Gains.MuscleGains.StimulusTension</ClassName>
@@ -536,7 +536,7 @@
 <IndependentUnits>Membrane Voltage (V)</IndependentUnits>
 <DependentUnits>Contractile Tension (N)</DependentUnits>
 <A Value="-40" Scale="milli" Actual="-0.04"/>
-<B Value="30" Scale="None" Actual="30"/>
+<B Value="50" Scale="None" Actual="50"/>
 <C Value="100" Scale="None" Actual="100"/>
 <D Value="0" Scale="None" Actual="0"/>
 </StimulusTension>
@@ -561,8 +561,8 @@
 <MinPeLength Value="5" Scale="None" Actual="5"/>
 </LengthTension>
 <MaximumTension Value="100" Scale="None" Actual="100"/>
-<Kse Value="10" Scale="None" Actual="10"/>
-<Kpe Value="1" Scale="None" Actual="1"/>
+<Kse Value="1000" Scale="None" Actual="1000"/>
+<Kpe Value="100" Scale="None" Actual="100"/>
 <B Value="1" Scale="None" Actual="1"/>
 <IbDischarge Value="100" Scale="None" Actual="100"/>
 </RigidBody>
@@ -658,7 +658,7 @@
 <AttachID>62034be9-32f2-48f3-8cd7-e63f5574fab1</AttachID>
 </Attachments>
 <StimulusTension>
-<ID>23dc0ac6-8e9f-4c18-b376-57599df414d5</ID>
+<ID>5bc373f9-779e-47f8-91f6-402b9b6cd1c6</ID>
 <Type>StimulusTension</Type>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Gains.MuscleGains.StimulusTension</ClassName>
@@ -673,7 +673,7 @@
 <IndependentUnits>Membrane Voltage (V)</IndependentUnits>
 <DependentUnits>Contractile Tension (N)</DependentUnits>
 <A Value="-40" Scale="milli" Actual="-0.04"/>
-<B Value="50" Scale="None" Actual="50"/>
+<B Value="35" Scale="None" Actual="35"/>
 <C Value="100" Scale="None" Actual="100"/>
 <D Value="0" Scale="None" Actual="0"/>
 </StimulusTension>
@@ -698,8 +698,8 @@
 <MinPeLength Value="5" Scale="None" Actual="5"/>
 </LengthTension>
 <MaximumTension Value="100" Scale="None" Actual="100"/>
-<Kse Value="10" Scale="None" Actual="10"/>
-<Kpe Value="1" Scale="None" Actual="1"/>
+<Kse Value="1000" Scale="None" Actual="1000"/>
+<Kpe Value="100" Scale="None" Actual="100"/>
 <B Value="1" Scale="None" Actual="1"/>
 <IbDischarge Value="100" Scale="None" Actual="100"/>
 </RigidBody>
@@ -2308,8 +2308,8 @@
 <CurrentOn Value="40" Scale="nano" Actual="4e-008"/>
 <CurrentOff Value="0" Scale="nano" Actual="0"/>
 <CurrentBurstOff Value="0" Scale="nano" Actual="0"/>
-<CycleOnDuration Value="2" Scale="None" Actual="2"/>
-<CycleOffDuration Value="2" Scale="None" Actual="2"/>
+<CycleOnDuration Value="0.2" Scale="None" Actual="0.2"/>
+<CycleOffDuration Value="0.2" Scale="None" Actual="0.2"/>
 <BurstOnDuration Value="10" Scale="None" Actual="10"/>
 <BurstOffDuration Value="0" Scale="None" Actual="0"/>
 </Stimulus>
@@ -2450,7 +2450,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/20/2020 16:59:51"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/20/2020 17:17:18"&gt;
   &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 125" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
