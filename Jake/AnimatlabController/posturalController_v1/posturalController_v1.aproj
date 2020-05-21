@@ -14,7 +14,7 @@
 <SetSimEnd>True</SetSimEnd>
 <APIFile/>
 <SimEndTime Value="10.5" Scale="None" Actual="10.5"/>
-<PlaybackControlMode>MatchPhysicsStep</PlaybackControlMode>
+<PlaybackControlMode>FastestPossible</PlaybackControlMode>
 <PresetPlaybackTimeStep Value="0" Scale="milli" Actual="0"/>
 <Environment>
 <PhysicsTimeStep Value="0.6" Scale="milli" Actual="0.0006"/>
@@ -76,7 +76,7 @@
 <Y Value="0" Scale="None" Actual="0"/>
 <Z Value="0" Scale="None" Actual="0"/>
 </Rotation>
-<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,0,1.06502,-0.1,1</LocalMatrix>
+<LocalMatrix>1,0,0,0,0,1,0,0,0,0,1,0,0,1.065,-0.1,1</LocalMatrix>
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Basic</Type>
 <RigidBody>
@@ -106,7 +106,7 @@
 <Y Value="0" Scale="None" Actual="0"/>
 <Z Value="0" Scale="None" Actual="0"/>
 </Rotation>
-<LocalMatrix>1,0,0,0,0,-0.000203653,1,0,0,-1,-0.000203653,0,0,1.06502,-0.1,1</LocalMatrix>
+<LocalMatrix>1,0,0,0,0,-0.000203653,1,0,0,-1,-0.000203653,0,0,1.065,-0.1,1</LocalMatrix>
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Cylinder</Type>
 <PartType>AnimatGUI.DataObjects.Physical.Bodies.Cylinder</PartType>
@@ -157,8 +157,8 @@
 <Simulation>0</Simulation>
 </Transparencies>
 <IsVisible>True</IsVisible>
-<Ambient Red="0" Green="0.752941" Blue="0.752941" Alpha="1"/>
-<Diffuse Red="0" Green="0.752941" Blue="0.752941" Alpha="1"/>
+<Ambient Red="0.752941" Green="0.752941" Blue="1" Alpha="1"/>
+<Diffuse Red="0.752941" Green="0.752941" Blue="1" Alpha="1"/>
 <Specular Red="0.25098" Green="0.25098" Blue="0.25098" Alpha="1"/>
 <Shininess>64</Shininess>
 <Texture/>
@@ -172,7 +172,7 @@
 <Y Value="0" Scale="None" Actual="0"/>
 <Z Value="0" Scale="None" Actual="0"/>
 </Rotation>
-<LocalMatrix>1,0,0,0,0,-0.000203653,1,0,0,-1,-0.000203653,0,0,0.15002,-0.1,1</LocalMatrix>
+<LocalMatrix>1,0,0,0,0,-0.000203653,1,0,0,-1,-0.000203653,0,0,0.15,-0.1,1</LocalMatrix>
 <DraggerSize Value="-1" Scale="None" Actual="-1"/>
 <Type>Box</Type>
 <PartType>AnimatGUI.DataObjects.Physical.Bodies.Box</PartType>
@@ -284,7 +284,7 @@
 <Relaxation5>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>76e78a53-04fa-40fc-ba7d-d967bf8ab2aa</ID>
+<ID>554e7303-cacd-49ed-80ba-0dd53dd7c199</ID>
 <Enabled>False</Enabled>
 <CoordinateID>4</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -293,7 +293,7 @@
 <Relaxation6>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>554e7303-cacd-49ed-80ba-0dd53dd7c199</ID>
+<ID>d42b14bf-f22f-4c64-91a1-38d031a1b052</ID>
 <Enabled>False</Enabled>
 <CoordinateID>5</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -521,7 +521,7 @@
 <AttachID>503078d4-2a80-46f1-acca-94d5ca23a069</AttachID>
 </Attachments>
 <StimulusTension>
-<ID>cc5a545c-b6e9-4c45-aec4-192e50cdc459</ID>
+<ID>bf7e4403-15bf-4cad-92c8-47b26bc7132b</ID>
 <Type>StimulusTension</Type>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Gains.MuscleGains.StimulusTension</ClassName>
@@ -536,7 +536,7 @@
 <IndependentUnits>Membrane Voltage (V)</IndependentUnits>
 <DependentUnits>Contractile Tension (N)</DependentUnits>
 <A Value="-40" Scale="milli" Actual="-0.04"/>
-<B Value="50" Scale="None" Actual="50"/>
+<B Value="75" Scale="None" Actual="75"/>
 <C Value="100" Scale="None" Actual="100"/>
 <D Value="0" Scale="None" Actual="0"/>
 </StimulusTension>
@@ -658,7 +658,7 @@
 <AttachID>62034be9-32f2-48f3-8cd7-e63f5574fab1</AttachID>
 </Attachments>
 <StimulusTension>
-<ID>5bc373f9-779e-47f8-91f6-402b9b6cd1c6</ID>
+<ID>8e3b1e3a-e002-4387-b619-c9da7b0d0ae5</ID>
 <Type>StimulusTension</Type>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Gains.MuscleGains.StimulusTension</ClassName>
@@ -673,7 +673,7 @@
 <IndependentUnits>Membrane Voltage (V)</IndependentUnits>
 <DependentUnits>Contractile Tension (N)</DependentUnits>
 <A Value="-40" Scale="milli" Actual="-0.04"/>
-<B Value="35" Scale="None" Actual="35"/>
+<B Value="50" Scale="None" Actual="50"/>
 <C Value="100" Scale="None" Actual="100"/>
 <D Value="0" Scale="None" Actual="0"/>
 </StimulusTension>
@@ -2355,8 +2355,8 @@
 </Stimuli>
 <HudItems>
 <HudItem>
-<Name>a8b69eaa-9964-4e56-b06c-a8c3e786aca5</Name>
-<ID>a8b69eaa-9964-4e56-b06c-a8c3e786aca5</ID>
+<Name>212a742f-064b-48ad-80ea-d5c47424d935</Name>
+<ID>212a742f-064b-48ad-80ea-d5c47424d935</ID>
 <Type>HudText</Type>
 <CharSize>30</CharSize>
 <Text>Time: %3.3f</Text>
@@ -2450,7 +2450,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/20/2020 17:17:18"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/20/2020 18:23:23"&gt;
   &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 125" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
