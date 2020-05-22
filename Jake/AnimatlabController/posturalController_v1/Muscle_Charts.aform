@@ -1,8 +1,8 @@
 <Form>
 <Form>
 <ID>0f31cd09-b029-4519-b7cb-12291eff42a0</ID>
-<Title>DataTool_1</Title>
-<TabPageName>DataTool_1</TabPageName>
+<Title>Muscle Charts</Title>
+<TabPageName>Muscle Charts</TabPageName>
 <AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
 <ClassName>LicensedAnimatGUI.Forms.Charts.LineChart</ClassName>
 <AutoCollectInterval>True</AutoCollectInterval>
@@ -220,6 +220,6 @@
 <UpdateChartAtEnd>True</UpdateChartAtEnd>
 <PointsToKeep>55000</PointsToKeep>
 <YAxisOffset>0</YAxisOffset>
-<GraphConfig ByteCount="8971"/>
+<GraphConfig ByteCount="9013"/>
 </Form>
 </Form>
