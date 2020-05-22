@@ -27,9 +27,9 @@ subplot(3,1,1)
 bode(Gp)
 grid on
 %% Design the PD controller by finding the P and D constants
-Kd = 11651;
+Kd = 46254;
 % Kp = 1.583;
-KpKd_ratio = 1.583;
+KpKd_ratio = 6.534;
 Gc = Kd*(KpKd_ratio + s);
 G = feedback(Gc*Gp,1);
 
