@@ -16,7 +16,7 @@
 <Axis>
 <AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
 <ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DAxis</ClassName>
-<Name>Y Axis 1</Name>
+<Name>Angle Neuron</Name>
 <WorkingAxis>0</WorkingAxis>
 <DataColumns>
 <DataColumn>
@@ -42,51 +42,7 @@
 <Axis>
 <AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
 <ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DAxis</ClassName>
-<Name>Y Axis 2</Name>
-<WorkingAxis>1</WorkingAxis>
-<DataColumns>
-<DataColumn>
-<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
-<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
-<Name>T/d (1)</Name>
-<ID>2e243755-3353-40d6-9be9-8a0feeaa6eea</ID>
-<DataItemAssemblyFile>IntegrateFireGUI.dll</DataItemAssemblyFile>
-<DataItemClassName>IntegrateFireGUI.DataObjects.Behavior.Neurons.NonSpiking</DataItemClassName>
-<StructureID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</StructureID>
-<DataItemID>d4d0335e-99ff-4484-8430-0ec7dbda402a</DataItemID>
-<SelectedDataType>MembraneVoltage</SelectedDataType>
-<DataSubSet>1</DataSubSet>
-<PrevDataSubset>1</PrevDataSubset>
-<UseIncomingDataType>False</UseIncomingDataType>
-<LineType>MediumSolid</LineType>
-<PointType>Plus</PointType>
-<PlotMethodType>Line</PlotMethodType>
-<LineColor>-65536</LineColor>
-</DataColumn>
-<DataColumn>
-<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
-<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
-<Name>T/d (2)</Name>
-<ID>a54d1a8e-47ec-43ef-8802-45e5c366531a</ID>
-<DataItemAssemblyFile>IntegrateFireGUI.dll</DataItemAssemblyFile>
-<DataItemClassName>IntegrateFireGUI.DataObjects.Behavior.Neurons.NonSpiking</DataItemClassName>
-<StructureID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</StructureID>
-<DataItemID>f4e2a4b2-0475-44fa-84a8-c410bb008cf5</DataItemID>
-<SelectedDataType>MembraneVoltage</SelectedDataType>
-<DataSubSet>2</DataSubSet>
-<PrevDataSubset>2</PrevDataSubset>
-<UseIncomingDataType>False</UseIncomingDataType>
-<LineType>MediumSolid</LineType>
-<PointType>Plus</PointType>
-<PlotMethodType>Line</PlotMethodType>
-<LineColor>-16711936</LineColor>
-</DataColumn>
-</DataColumns>
-</Axis>
-<Axis>
-<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
-<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DAxis</ClassName>
-<Name>Y Axis 3</Name>
+<Name>Error Neurons</Name>
 <WorkingAxis>2</WorkingAxis>
 <DataColumns>
 <DataColumn>
@@ -130,6 +86,50 @@
 <Axis>
 <AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
 <ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DAxis</ClassName>
+<Name>Gain Neurons</Name>
+<WorkingAxis>1</WorkingAxis>
+<DataColumns>
+<DataColumn>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
+<Name>Kp*Err(1)</Name>
+<ID>65691868-7f51-47f3-a933-2511aa69b611</ID>
+<DataItemAssemblyFile>IntegrateFireGUI.dll</DataItemAssemblyFile>
+<DataItemClassName>IntegrateFireGUI.DataObjects.Behavior.Neurons.NonSpiking</DataItemClassName>
+<StructureID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</StructureID>
+<DataItemID>5adab1f4-2b48-479e-8b56-90936ce2a6bd</DataItemID>
+<SelectedDataType>MembraneVoltage</SelectedDataType>
+<DataSubSet>1</DataSubSet>
+<PrevDataSubset>-1</PrevDataSubset>
+<UseIncomingDataType>False</UseIncomingDataType>
+<LineType>MediumSolid</LineType>
+<PointType>Plus</PointType>
+<PlotMethodType>Line</PlotMethodType>
+<LineColor>-65536</LineColor>
+</DataColumn>
+<DataColumn>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
+<Name>Kp_Err(2)</Name>
+<ID>bca8d1a4-214c-4658-b5ea-2b90f4a12917</ID>
+<DataItemAssemblyFile>IntegrateFireGUI.dll</DataItemAssemblyFile>
+<DataItemClassName>IntegrateFireGUI.DataObjects.Behavior.Neurons.NonSpiking</DataItemClassName>
+<StructureID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</StructureID>
+<DataItemID>11106dcf-d026-45c5-bd0b-24cb69ffe7d6</DataItemID>
+<SelectedDataType>MembraneVoltage</SelectedDataType>
+<DataSubSet>2</DataSubSet>
+<PrevDataSubset>-1</PrevDataSubset>
+<UseIncomingDataType>False</UseIncomingDataType>
+<LineType>MediumSolid</LineType>
+<PointType>Plus</PointType>
+<PlotMethodType>Line</PlotMethodType>
+<LineColor>-16711936</LineColor>
+</DataColumn>
+</DataColumns>
+</Axis>
+<Axis>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DAxis</ClassName>
 <Name>Y Axis 4</Name>
 <WorkingAxis>3</WorkingAxis>
 <DataColumns>
@@ -158,6 +158,6 @@
 <UpdateChartAtEnd>True</UpdateChartAtEnd>
 <PointsToKeep>55000</PointsToKeep>
 <YAxisOffset>0</YAxisOffset>
-<GraphConfig ByteCount="8997"/>
+<GraphConfig ByteCount="9014"/>
 </Form>
 </Form>
