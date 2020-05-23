@@ -284,7 +284,7 @@
 <Relaxation5>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>6a2e4e56-9ace-44d1-820a-c4ae0b1525b0</ID>
+<ID>154facd6-ede5-41c9-8713-56352440549e</ID>
 <Enabled>False</Enabled>
 <CoordinateID>4</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -293,7 +293,7 @@
 <Relaxation6>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>154facd6-ede5-41c9-8713-56352440549e</ID>
+<ID>dbe6fe3c-6897-462d-988a-dc5aa0af4f1e</ID>
 <Enabled>False</Enabled>
 <CoordinateID>5</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -2088,7 +2088,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="789.5" y="478.75"/>
+<Location x="768.5" y="478.75"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -2433,7 +2433,7 @@
 <Enabled>True</Enabled>
 <RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
-<TimeConstant Value="5" Scale="milli" Actual="0.005"/>
+<TimeConstant Value="2" Scale="milli" Actual="0.002"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
 <RelativeAccomodation Value="0.3" Scale="None" Actual="0.3"/>
 <AccomodationTimeConstant Value="10" Scale="milli" Actual="0.01"/>
@@ -2558,7 +2558,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="1282.38" y="616.25"/>
+<Location x="1145.88" y="485"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -2675,7 +2675,7 @@
 <DataTypeID>JointRotation</DataTypeID>
 <TargetDataTypeID>ExternalCurrent</TargetDataTypeID>
 <Gain>
-<ID>ab8e23c9-ce94-4e0a-8790-606de024f7b5</ID>
+<ID>63c67f91-156f-46d8-a952-f325349ea62d</ID>
 <Type>Polynomial</Type>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Gains.Polynomial</ClassName>
@@ -2683,16 +2683,16 @@
 <LimitsReadOnly>False</LimitsReadOnly>
 <LimitOutputsReadOnly>False</LimitOutputsReadOnly>
 <UseParentIncomingDataType>True</UseParentIncomingDataType>
-<LowerLimitScale Value="-3.14" Scale="None" Actual="-3.14"/>
-<UpperLimitScale Value="3.14" Scale="None" Actual="3.14"/>
+<LowerLimitScale Value="-0.06" Scale="None" Actual="-0.06"/>
+<UpperLimitScale Value="0.06" Scale="None" Actual="0.06"/>
 <LowerOutputScale Value="0" Scale="None" Actual="0"/>
 <UpperOutputScale Value="1" Scale="None" Actual="1"/>
 <IndependentUnits/>
 <DependentUnits>Output Variable</DependentUnits>
 <A Value="0" Scale="None" Actual="0"/>
 <B Value="0" Scale="None" Actual="0"/>
-<C Value="1" Scale="None" Actual="1"/>
-<D Value="0" Scale="None" Actual="0"/>
+<C Value="-200" Scale="None" Actual="-200"/>
+<D Value="-50" Scale="None" Actual="-50"/>
 </Gain>
 <DelayBufferMode>NoDelayBuffer</DelayBufferMode>
 <DelayBufferInterval Value="100" Scale="milli" Actual="0.1"/>
@@ -2960,7 +2960,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="1111.75" y="474.75"/>
+<Location x="1069.75" y="481.5"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -3168,7 +3168,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="1348.5" y="636.75"/>
+<Location x="1245.75" y="431.25"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -3482,7 +3482,7 @@
 <Enabled>True</Enabled>
 <RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
-<TimeConstant Value="5" Scale="milli" Actual="0.005"/>
+<TimeConstant Value="2" Scale="milli" Actual="0.002"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
 <RelativeAccomodation Value="0.3" Scale="None" Actual="0.3"/>
 <AccomodationTimeConstant Value="10" Scale="milli" Actual="0.01"/>
@@ -3528,7 +3528,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="987.25" y="374.75"/>
+<Location x="945.25" y="381.5"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -4006,7 +4006,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="1346.75" y="182.25"/>
+<Location x="1314.5" y="134.25"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -4056,7 +4056,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="1234.88" y="245.5"/>
+<Location x="1210.88" y="183.25"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -4297,7 +4297,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="958" y="473"/>
+<Location x="916" y="479.75"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -4374,7 +4374,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="862.75" y="351.25"/>
+<Location x="834.25" y="376.75"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -4453,7 +4453,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="991" y="563"/>
+<Location x="949" y="569.75"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -4532,7 +4532,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="866.5" y="605.5"/>
+<Location x="838" y="583"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -6834,7 +6834,7 @@
 <ZoomX>1</ZoomX>
 <ZoomY>1</ZoomY>
 <BackColor Red="1" Green="1" Blue="1" Alpha="1"/>
-<ShowGrid>True</ShowGrid>
+<ShowGrid>False</ShowGrid>
 <GridColor Red="0.427451" Green="0.427451" Blue="0.427451" Alpha="1"/>
 <GridSize Width="16" Height="16"/>
 <GridStyle>DottedLines</GridStyle>
@@ -8023,16 +8023,16 @@
 <ClassName>AnimatGUI.DataObjects.ExternalStimuli.MotorPosition</ClassName>
 <Name>Stimulus_1</Name>
 <ID>29503a07-484d-42a4-9dc5-e82cd8bca8f1</ID>
-<StartTime Value="0" Scale="None" Actual="0"/>
-<EndTime Value="10" Scale="None" Actual="10"/>
+<StartTime Value="2" Scale="None" Actual="2"/>
+<EndTime Value="2.5" Scale="None" Actual="2.5"/>
 <StepInterval Value="0" Scale="milli" Actual="0"/>
 <AlwaysActive>False</AlwaysActive>
-<Enabled>False</Enabled>
+<Enabled>True</Enabled>
 <ValueType>Constant</ValueType>
 <Equation>0</Equation>
 <StructureID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</StructureID>
 <PartID>9d8bde90-0fb6-4313-8c63-b06ac20cd6ff</PartID>
-<Velocity Value="-0.5" Scale="None" Actual="-0.5"/>
+<Velocity Value="-0.05" Scale="None" Actual="-0.05"/>
 <DisableMotorWhenDone>False</DisableMotorWhenDone>
 </Stimulus>
 <Stimulus>
@@ -8060,8 +8060,8 @@
 </Stimuli>
 <HudItems>
 <HudItem>
-<Name>c10e042d-60a1-4970-91ae-e4cbd1b3d038</Name>
-<ID>c10e042d-60a1-4970-91ae-e4cbd1b3d038</ID>
+<Name>4c9ca965-3afc-438c-a0c6-6e5b9d87ce3a</Name>
+<ID>4c9ca965-3afc-438c-a0c6-6e5b9d87ce3a</ID>
 <Type>HudText</Type>
 <CharSize>30</CharSize>
 <Text>Time: %3.3f</Text>
@@ -8155,7 +8155,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/22/2020 12:04:22"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/22/2020 17:06:20"&gt;
   &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 125" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
@@ -8585,9 +8585,9 @@
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
 &lt;TabbedGroups FormatVersion="1" ActiveLeaf="3"&gt;
   &lt;CustomGlobalData /&gt;
-  &lt;Sequence Count="1" Unique="0" Space="100" Direction="Horizontal"&gt;
-    &lt;Leaf Count="4" Unique="3" Space="100"&gt;
-      &lt;Page Title="Organism_1 Body" ImageList="True" ImageIndex="0" Selected="False" Control="null" UniqueName=""&gt;
+  &lt;Sequence Count="2" Unique="0" Space="100" Direction="Horizontal"&gt;
+    &lt;Leaf Count="3" Unique="3" Space="57.736842105263157894736842110"&gt;
+      &lt;Page Title="Organism_1 Body" ImageList="True" ImageIndex="0" Selected="True" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
 &lt;ID&gt;2f3d0f3a-02b7-4b7a-a2cf-87d96e7449a2&lt;/ID&gt;
@@ -8628,6 +8628,8 @@
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
+    &lt;/Leaf&gt;
+    &lt;Leaf Count="1" Unique="13" Space="42.263157894736842105263157890"&gt;
       &lt;Page Title="Neural Subsystem" ImageList="True" ImageIndex="2" Selected="True" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
