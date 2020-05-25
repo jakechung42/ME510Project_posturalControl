@@ -6,7 +6,7 @@
 <Physics>Bullet</Physics>
 <LibraryVersion>Double</LibraryVersion>
 <Simulation>
-<ProjectPath>C:\Users\Tiffany\Documents\AnimatLab\Projects\Subnetworks\</ProjectPath>
+<ProjectPath>D:\Github\ME510Project_posturalControl\OriginalWork\Tiffany_s Neural Network Input Dependence Work\Functional Subnetworks in Animatlab\Subnetworks\</ProjectPath>
 <AnimatModule>BulletAnimatSim_VC10_double.dll</AnimatModule>
 <UpdateDataInterval>250</UpdateDataInterval>
 <StartPaused>False</StartPaused>
@@ -4754,8 +4754,8 @@
 </Stimuli>
 <HudItems>
 <HudItem>
-<Name>3c8a264c-af59-4b6d-aef0-dbf9dd561f47</Name>
-<ID>3c8a264c-af59-4b6d-aef0-dbf9dd561f47</ID>
+<Name>92bb561b-10ac-409a-a6fe-e847e9dbe962</Name>
+<ID>92bb561b-10ac-409a-a6fe-e847e9dbe962</ID>
 <Type>HudText</Type>
 <CharSize>30</CharSize>
 <Text>Time: %3.3f</Text>
@@ -4833,9 +4833,9 @@
 <AutomaticTimeScale>True</AutomaticTimeScale>
 <DivisionMarkFactor>4</DivisionMarkFactor>
 <Divisions>10</Divisions>
-<MajorInterval>10</MajorInterval>
+<MajorInterval>2</MajorInterval>
 <MiddleMarkFactor>3</MiddleMarkFactor>
-<TimeScale>Seconds</TimeScale>
+<TimeScale>Minutes</TimeScale>
 </Form>
 <Form>
 <ID>de93ba94-4399-470e-a17e-81d74fd13550</ID>
@@ -4849,7 +4849,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="04/04/2018 12:38:55"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/24/2020 23:56:25"&gt;
   &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 125" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
@@ -4965,23 +4965,22 @@
       &lt;Content Name="Workspace" UniqueName="" /&gt;
       &lt;State Value="DockLeft" /&gt;
       &lt;Position Size="324, 150" Location="150, 150" /&gt;
-      &lt;Best Count="2"&gt;
+      &lt;Best Count="1"&gt;
         &lt;Item Name="Workspace" /&gt;
-        &lt;Item Name="Properties" /&gt;
       &lt;/Best&gt;
       &lt;Next Count="0" /&gt;
       &lt;Previous Count="0" /&gt;
-      &lt;NextAll Count="0" /&gt;
+      &lt;NextAll Count="1"&gt;
+        &lt;Item Name="Properties" /&gt;
+      &lt;/NextAll&gt;
       &lt;PreviousAll Count="0" /&gt;
       &lt;Child Type="Crownwood.DotNetMagic.Docking.RestoreZoneAffinity"&gt;
         &lt;Content Name="Workspace" UniqueName="" /&gt;
-        &lt;Space Value="50" /&gt;
+        &lt;Space Value="100" /&gt;
         &lt;Best Count="1"&gt;
           &lt;Item Name="Workspace" /&gt;
         &lt;/Best&gt;
-        &lt;Next Count="1"&gt;
-          &lt;Item Name="Properties" /&gt;
-        &lt;/Next&gt;
+        &lt;Next Count="0" /&gt;
         &lt;Previous Count="0" /&gt;
         &lt;Child Type="Crownwood.DotNetMagic.Docking.RestoreWindowContent"&gt;
           &lt;Content Name="Workspace" UniqueName="" /&gt;
@@ -4998,7 +4997,7 @@
       &lt;Child Type="null" /&gt;
     &lt;/FloatingRestore&gt;
   &lt;/Content&gt;
-  &lt;Content Name="Properties" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="324, 150" DisplayLocation="150, 150" AutoHideSize="200, 150" FloatingSize="150, 150" FullTitle="Properties" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
+  &lt;Content Name="Properties" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="320, 150" DisplayLocation="150, 150" AutoHideSize="200, 150" FloatingSize="150, 150" FullTitle="Properties" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Properties" UniqueName="" /&gt;
       &lt;State Value="DockLeft" /&gt;
@@ -5011,8 +5010,8 @@
     &lt;/AutoHideRestore&gt;
     &lt;DockingRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentDockingAffinity"&gt;
       &lt;Content Name="Properties" UniqueName="" /&gt;
-      &lt;State Value="DockLeft" /&gt;
-      &lt;Position Size="324, 150" Location="150, 150" /&gt;
+      &lt;State Value="DockRight" /&gt;
+      &lt;Position Size="320, 150" Location="150, 150" /&gt;
       &lt;Best Count="1"&gt;
         &lt;Item Name="Properties" /&gt;
       &lt;/Best&gt;
@@ -5278,24 +5277,10 @@
 <TabbedGroupsConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;TabbedGroups FormatVersion="1" ActiveLeaf="3"&gt;
+&lt;TabbedGroups FormatVersion="1" ActiveLeaf="16"&gt;
   &lt;CustomGlobalData /&gt;
-  &lt;Sequence Count="1" Unique="0" Space="100" Direction="Horizontal"&gt;
-    &lt;Leaf Count="9" Unique="3" Space="100"&gt;
-      &lt;Page Title="Neural Subsystem" ImageList="True" ImageIndex="0" Selected="False" Control="null" UniqueName=""&gt;
-        &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
-&lt;Form&gt;
-&lt;ID&gt;614a09e8-eb0c-4274-a7fe-a05b66b9d9de&lt;/ID&gt;
-&lt;Title&gt;Neural Subsystem&lt;/Title&gt;
-&lt;TabPageName&gt;Neural Subsystem&lt;/TabPageName&gt;
-&lt;AssemblyFile&gt;LicensedAnimatGUI.dll&lt;/AssemblyFile&gt;
-&lt;ClassName&gt;LicensedAnimatGUI.Forms.Behavior.AddFlowDiagram&lt;/ClassName&gt;
-&lt;OrganismID&gt;18919d99-52c3-4f86-9f46-fb09501f4b3f&lt;/OrganismID&gt;
-&lt;SubSystemID&gt;e7169bf5-866d-43bb-a4d8-5b6f4601066b&lt;/SubSystemID&gt;
-&lt;/Form&gt;
-&lt;/TabPage&gt;
-]]&gt;&lt;/CustomPageData&gt;
-      &lt;/Page&gt;
+  &lt;Sequence Count="2" Unique="0" Space="100" Direction="Horizontal"&gt;
+    &lt;Leaf Count="8" Unique="3" Space="50"&gt;
       &lt;Page Title="Integrator Network" ImageList="True" ImageIndex="1" Selected="False" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
@@ -5348,7 +5333,7 @@
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
-      &lt;Page Title="Multiplication Network" ImageList="True" ImageIndex="1" Selected="False" Control="null" UniqueName=""&gt;
+      &lt;Page Title="Multiplication Network" ImageList="True" ImageIndex="1" Selected="True" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
 &lt;ID&gt;ff2ed218-42a6-4ee9-8887-1e72be36bb2e&lt;/ID&gt;
@@ -5374,7 +5359,7 @@
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
-      &lt;Page Title="Derivative Sin Network" ImageList="True" ImageIndex="1" Selected="True" Control="null" UniqueName=""&gt;
+      &lt;Page Title="Derivative Sin Network" ImageList="True" ImageIndex="1" Selected="False" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
 &lt;ID&gt;179b3057-8f42-4ea3-a6ea-c26a0a6e1b27&lt;/ID&gt;
@@ -5396,6 +5381,22 @@
 &lt;AssemblyFile&gt;LicensedAnimatGUI.dll&lt;/AssemblyFile&gt;
 &lt;ClassName&gt;LicensedAnimatGUI.Forms.Charts.LineChart&lt;/ClassName&gt;
 &lt;ExternalFile&gt;DataTool_1.aform&lt;/ExternalFile&gt;
+&lt;/Form&gt;
+&lt;/TabPage&gt;
+]]&gt;&lt;/CustomPageData&gt;
+      &lt;/Page&gt;
+    &lt;/Leaf&gt;
+    &lt;Leaf Count="1" Unique="16" Space="50"&gt;
+      &lt;Page Title="Neural Subsystem" ImageList="True" ImageIndex="0" Selected="True" Control="null" UniqueName=""&gt;
+        &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
+&lt;Form&gt;
+&lt;ID&gt;614a09e8-eb0c-4274-a7fe-a05b66b9d9de&lt;/ID&gt;
+&lt;Title&gt;Neural Subsystem&lt;/Title&gt;
+&lt;TabPageName&gt;Neural Subsystem&lt;/TabPageName&gt;
+&lt;AssemblyFile&gt;LicensedAnimatGUI.dll&lt;/AssemblyFile&gt;
+&lt;ClassName&gt;LicensedAnimatGUI.Forms.Behavior.AddFlowDiagram&lt;/ClassName&gt;
+&lt;OrganismID&gt;18919d99-52c3-4f86-9f46-fb09501f4b3f&lt;/OrganismID&gt;
+&lt;SubSystemID&gt;e7169bf5-866d-43bb-a4d8-5b6f4601066b&lt;/SubSystemID&gt;
 &lt;/Form&gt;
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
