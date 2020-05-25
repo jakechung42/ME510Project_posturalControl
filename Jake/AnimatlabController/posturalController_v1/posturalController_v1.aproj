@@ -135,8 +135,8 @@
 <MaxHydroTorque Value="20" Scale="None" Actual="20"/>
 <Magnus>0</Magnus>
 <EnableFluids>False</EnableFluids>
-<Density Value="5.705" Scale="Mega" Actual="5.705e+006"/>
-<Mass Value="82" Scale="Kilo" Actual="82000"/>
+<Density Value="69.576" Scale="Kilo" Actual="69576"/>
+<Mass Value="1" Scale="Kilo" Actual="1000"/>
 <COM>
 <X Value="0" Scale="None" Actual="0"/>
 <Y Value="0" Scale="centi" Actual="0"/>
@@ -284,7 +284,7 @@
 <Relaxation5>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>dbe6fe3c-6897-462d-988a-dc5aa0af4f1e</ID>
+<ID>24a56300-d93d-403c-b4ad-b2db52b553fe</ID>
 <Enabled>False</Enabled>
 <CoordinateID>4</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -293,7 +293,7 @@
 <Relaxation6>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>13e94698-bd9e-43e6-8e91-bf2d3936ecfb</ID>
+<ID>696d578e-1eb8-4eb9-a6e9-ab631a8a7137</ID>
 <Enabled>False</Enabled>
 <CoordinateID>5</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -658,7 +658,7 @@
 <AttachID>62034be9-32f2-48f3-8cd7-e63f5574fab1</AttachID>
 </Attachments>
 <StimulusTension>
-<ID>8e3b1e3a-e002-4387-b619-c9da7b0d0ae5</ID>
+<ID>746e0f11-2a07-4150-ac65-5289a901ce1e</ID>
 <Type>StimulusTension</Type>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Gains.MuscleGains.StimulusTension</ClassName>
@@ -673,7 +673,7 @@
 <IndependentUnits>Membrane Voltage (V)</IndependentUnits>
 <DependentUnits>Contractile Tension (N)</DependentUnits>
 <A Value="-40" Scale="milli" Actual="-0.04"/>
-<B Value="50" Scale="None" Actual="50"/>
+<B Value="75" Scale="None" Actual="75"/>
 <C Value="100" Scale="None" Actual="100"/>
 <D Value="0" Scale="None" Actual="0"/>
 </StimulusTension>
@@ -2641,7 +2641,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="100.438" y="496.25"/>
+<Location x="95.1875" y="495.5"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -2675,18 +2675,18 @@
 <DataTypeID>JointRotation</DataTypeID>
 <TargetDataTypeID>ExternalCurrent</TargetDataTypeID>
 <Gain>
-<ID>bcfe03d1-5c54-4077-8aec-f71a82873d28</ID>
+<ID>82788b77-bf58-4a21-9042-f7ad97d4170a</ID>
 <Type>Polynomial</Type>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Gains.Polynomial</ClassName>
-<UseLimits>False</UseLimits>
+<UseLimits>True</UseLimits>
 <LimitsReadOnly>False</LimitsReadOnly>
 <LimitOutputsReadOnly>False</LimitOutputsReadOnly>
 <UseParentIncomingDataType>True</UseParentIncomingDataType>
-<LowerLimitScale Value="-3.14" Scale="None" Actual="-3.14"/>
-<UpperLimitScale Value="3.14" Scale="None" Actual="3.14"/>
-<LowerOutputScale Value="0" Scale="None" Actual="0"/>
-<UpperOutputScale Value="1" Scale="None" Actual="1"/>
+<LowerLimitScale Value="-0.15" Scale="None" Actual="-0.15"/>
+<UpperLimitScale Value="0.15" Scale="None" Actual="0.15"/>
+<LowerOutputScale Value="20" Scale="nano" Actual="2e-008"/>
+<UpperOutputScale Value="-20" Scale="nano" Actual="-2e-008"/>
 <IndependentUnits/>
 <DependentUnits>Output Variable</DependentUnits>
 <A Value="0" Scale="None" Actual="0"/>
@@ -2983,10 +2983,7 @@
 <TemplateNode>False</TemplateNode>
 <TemplateNodeCount>1</TemplateNodeCount>
 <TemplateChangeScript/>
-<InLinks>
-<ID>7b0be388-55cc-40da-9fa4-bf1b9a58e681</ID>
-<ID>9428d652-9dbd-457e-99c4-cade1cb83007</ID>
-</InLinks>
+<InLinks/>
 <OutLinks>
 <ID>b7ac847e-dd46-46db-91b5-bfe3f00c4b86</ID>
 </OutLinks>
@@ -3482,7 +3479,7 @@
 <Enabled>True</Enabled>
 <RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
-<TimeConstant Value="2" Scale="milli" Actual="0.002"/>
+<TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
 <RelativeAccomodation Value="0.3" Scale="None" Actual="0.3"/>
 <AccomodationTimeConstant Value="10" Scale="milli" Actual="0.01"/>
@@ -3555,9 +3552,7 @@
 <ID>4ce68c3b-e831-4e9d-b1a0-5bb96b11edd0</ID>
 <ID>49760dec-af4f-4974-a327-aeabb02c9f0f</ID>
 </InLinks>
-<OutLinks>
-<ID>7b0be388-55cc-40da-9fa4-bf1b9a58e681</ID>
-</OutLinks>
+<OutLinks/>
 <Enabled>True</Enabled>
 <RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
@@ -3642,7 +3637,7 @@
 <Enabled>True</Enabled>
 <RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
-<TimeConstant Value="15" Scale="milli" Actual="0.015"/>
+<TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
 <RelativeAccomodation Value="0.3" Scale="None" Actual="0.3"/>
 <AccomodationTimeConstant Value="10" Scale="milli" Actual="0.01"/>
@@ -4006,7 +4001,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="1314.5" y="134.25"/>
+<Location x="1230.5" y="151.5"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -4480,9 +4475,7 @@
 <ID>661e35cd-e229-4155-aa7f-33a977d01181</ID>
 <ID>56946471-6788-4ee6-9b7c-9cbfb1f9b819</ID>
 </InLinks>
-<OutLinks>
-<ID>9428d652-9dbd-457e-99c4-cade1cb83007</ID>
-</OutLinks>
+<OutLinks/>
 <Enabled>True</Enabled>
 <RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
@@ -5525,53 +5518,6 @@
 <ConductionDelay Value="0" Scale="milli" Actual="0"/>
 </Link>
 <Link>
-<AssemblyFile>IntegrateFireGUI.dll</AssemblyFile>
-<ClassName>IntegrateFireGUI.DataObjects.Behavior.Synapse</ClassName>
-<ID>7b0be388-55cc-40da-9fa4-bf1b9a58e681</ID>
-<AdjustDst>False</AdjustDst>
-<AdjustOrg>False</AdjustOrg>
-<ArrowDestination>
-<Style>Arrow</Style>
-<Size>Medium</Size>
-<Angle>deg30</Angle>
-<Filled>False</Filled>
-</ArrowDestination>
-<ArrowMiddle>
-<Style>None</Style>
-<Size>Small</Size>
-<Angle>deg30</Angle>
-<Filled>False</Filled>
-</ArrowMiddle>
-<ArrowOrigin>
-<Style>None</Style>
-<Size>Small</Size>
-<Angle>deg30</Angle>
-<Filled>False</Filled>
-</ArrowOrigin>
-<BackMode>Transparent</BackMode>
-<DashStyle>Solid</DashStyle>
-<DrawColor>-16777216</DrawColor>
-<DrawWidth>1</DrawWidth>
-<DestinationID>4fc755a9-f631-467d-9d9f-a6bfd3b95e57</DestinationID>
-<Font Family="Arial" Size="10" Bold="False" Underline="False" Strikeout="False" Italic="False"/>
-<Hidden>False</Hidden>
-<Jump>Arc</Jump>
-<LineStyle>Polyline</LineStyle>
-<OrthogonalDynamic>True</OrthogonalDynamic>
-<OriginID>78b1c60c-1ff3-4585-994d-8a2a8b3b16b7</OriginID>
-<OrientedText>True</OrientedText>
-<Selectable>True</Selectable>
-<Stretchable>True</Stretchable>
-<Text/>
-<ToolTip/>
-<Url/>
-<ZOrder>0</ZOrder>
-<SynapticTypeID>3acb27ec-bb72-496b-8fc9-fdae2b8620be</SynapticTypeID>
-<UserText/>
-<SynapticConductance Value="0.5" Scale="micro" Actual="5e-007"/>
-<ConductionDelay Value="0" Scale="milli" Actual="0"/>
-</Link>
-<Link>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Behavior.Links.Adapter</ClassName>
 <ID>87ec3462-9bef-4687-96cc-4b3b5e14631c</ID>
@@ -5649,53 +5595,6 @@
 <LineStyle>Polyline</LineStyle>
 <OrthogonalDynamic>True</OrthogonalDynamic>
 <OriginID>cf1b6e40-da03-4a61-87f6-195172d19820</OriginID>
-<OrientedText>True</OrientedText>
-<Selectable>True</Selectable>
-<Stretchable>True</Stretchable>
-<Text/>
-<ToolTip/>
-<Url/>
-<ZOrder>0</ZOrder>
-<SynapticTypeID>3acb27ec-bb72-496b-8fc9-fdae2b8620be</SynapticTypeID>
-<UserText/>
-<SynapticConductance Value="0.5" Scale="micro" Actual="5e-007"/>
-<ConductionDelay Value="0" Scale="milli" Actual="0"/>
-</Link>
-<Link>
-<AssemblyFile>IntegrateFireGUI.dll</AssemblyFile>
-<ClassName>IntegrateFireGUI.DataObjects.Behavior.Synapse</ClassName>
-<ID>9428d652-9dbd-457e-99c4-cade1cb83007</ID>
-<AdjustDst>False</AdjustDst>
-<AdjustOrg>False</AdjustOrg>
-<ArrowDestination>
-<Style>Arrow</Style>
-<Size>Medium</Size>
-<Angle>deg30</Angle>
-<Filled>False</Filled>
-</ArrowDestination>
-<ArrowMiddle>
-<Style>None</Style>
-<Size>Small</Size>
-<Angle>deg30</Angle>
-<Filled>False</Filled>
-</ArrowMiddle>
-<ArrowOrigin>
-<Style>None</Style>
-<Size>Small</Size>
-<Angle>deg30</Angle>
-<Filled>False</Filled>
-</ArrowOrigin>
-<BackMode>Transparent</BackMode>
-<DashStyle>Solid</DashStyle>
-<DrawColor>-16777216</DrawColor>
-<DrawWidth>1</DrawWidth>
-<DestinationID>4fc755a9-f631-467d-9d9f-a6bfd3b95e57</DestinationID>
-<Font Family="Arial" Size="10" Bold="False" Underline="False" Strikeout="False" Italic="False"/>
-<Hidden>False</Hidden>
-<Jump>Arc</Jump>
-<LineStyle>Polyline</LineStyle>
-<OrthogonalDynamic>True</OrthogonalDynamic>
-<OriginID>e6220c4b-550d-4ef0-89ca-6ccc26de52d7</OriginID>
 <OrientedText>True</OrientedText>
 <Selectable>True</Selectable>
 <Stretchable>True</Stretchable>
@@ -6840,9 +6739,9 @@
 <GridStyle>DottedLines</GridStyle>
 <JumpSize>Medium</JumpSize>
 <SnapToGrid>False</SnapToGrid>
-<AddFlow Nodes="36" Links="48">
+<AddFlow Nodes="36" Links="46">
   <Version>1.5.0.1</Version>
-  <Node Left="1314.5" Top="134.25" Width="30" Height="150">
+  <Node Left="1230.5" Top="151.5" Width="30" Height="150">
     <Shadow Style="None" Color="-16777216" Width="0" Height="0" />
     <Shape Style="Rectangle" Orientation="so_0" />
     <AutoSize>ImageToNode</AutoSize>
@@ -6870,7 +6769,7 @@
     <ImageIndex>0</ImageIndex>
     <Tag>60f5dabf-6645-4bbe-823a-347a9adf9692</Tag>
   </Node>
-  <Node Left="1119.75" Top="178.75" Width="40" Height="40">
+  <Node Left="1035.75" Top="196" Width="40" Height="40">
     <Shadow Style="None" Color="-16777216" Width="0" Height="0" />
     <Shape Style="Termination" Orientation="so_0" />
     <FillColor>-7876870</FillColor>
@@ -6892,7 +6791,7 @@
     <Font Name="Arial" Size="14" Bold="True" Italic="False" Strikeout="False" Underline="False" />
     <Tag>4fc755a9-f631-467d-9d9f-a6bfd3b95e57</Tag>
   </Node>
-  <Node Left="1210.875" Top="183.25" Width="40" Height="40">
+  <Node Left="1126.875" Top="200.5" Width="40" Height="40">
     <Shadow Style="None" Color="-16777216" Width="0" Height="0" />
     <Shape Style="Display" Orientation="so_0" />
     <FillColor>-360334</FillColor>
@@ -7604,7 +7503,7 @@
     <ImageIndex>1</ImageIndex>
     <Tag>585ed9b6-69c4-47e5-8b54-bc02183ec4ad</Tag>
   </Node>
-  <Node Left="100.4375" Top="496.25" Width="40" Height="40">
+  <Node Left="95.1875" Top="495.5" Width="40" Height="40">
     <Shadow Style="None" Color="-16777216" Width="0" Height="0" />
     <Shape Style="Display" Orientation="so_0" />
     <FillColor>-360334</FillColor>
@@ -7800,30 +7699,6 @@
     <Font Name="Arial" Size="12" Bold="False" Italic="False" Strikeout="False" Underline="False" />
     <Tag>661e35cd-e229-4155-aa7f-33a977d01181</Tag>
   </Link>
-  <Link Org="76" Dst="3">
-    <OrientedText>True</OrientedText>
-    <Line Style="Polyline" OrthogonalDynamic="True" RoundedCorner="True" />
-    <ArrowDst Head="Arrow" Size="Medium" Angle="deg30" Filled="False" />
-    <ArrowOrg Head="None" Size="Small" Angle="deg30" Filled="False" />
-    <ArrowMid Head="None" Size="Small" Angle="deg30" Filled="False" />
-    <Jump>Arc</Jump>
-    <DrawColor>-16777216</DrawColor>
-    <TextColor>-16777216</TextColor>
-    <Font Name="Arial" Size="12" Bold="False" Italic="False" Strikeout="False" Underline="False" />
-    <Tag>7b0be388-55cc-40da-9fa4-bf1b9a58e681</Tag>
-  </Link>
-  <Link Org="77" Dst="3">
-    <OrientedText>True</OrientedText>
-    <Line Style="Polyline" OrthogonalDynamic="True" RoundedCorner="True" />
-    <ArrowDst Head="Arrow" Size="Medium" Angle="deg30" Filled="False" />
-    <ArrowOrg Head="None" Size="Small" Angle="deg30" Filled="False" />
-    <ArrowMid Head="None" Size="Small" Angle="deg30" Filled="False" />
-    <Jump>Arc</Jump>
-    <DrawColor>-16777216</DrawColor>
-    <TextColor>-16777216</TextColor>
-    <Font Name="Arial" Size="12" Bold="False" Italic="False" Strikeout="False" Underline="False" />
-    <Tag>9428d652-9dbd-457e-99c4-cade1cb83007</Tag>
-  </Link>
 </AddFlow>
 </Diagram>
 </Root>
@@ -7981,18 +7856,25 @@
 </Environment>
 <ToolViewers>
 <ToolHolder>
-<ID>76eaeec2-9ace-49f8-b154-55190d961b83</ID>
-<Name>Neural Controller</Name>
-<BaseAssemblyFile>LicensedAnimatGUI.dll</BaseAssemblyFile>
-<BaseClassName>LicensedAnimatGUI.Forms.Charts.LineChart</BaseClassName>
-<ToolFormID>71831afa-1d58-4403-8c4b-4a4888041e06</ToolFormID>
-</ToolHolder>
-<ToolHolder>
 <ID>6868da85-7009-4383-aeca-bd02d6ef4e09</ID>
 <Name>Muscle Charts</Name>
 <BaseAssemblyFile>LicensedAnimatGUI.dll</BaseAssemblyFile>
 <BaseClassName>LicensedAnimatGUI.Forms.Charts.LineChart</BaseClassName>
 <ToolFormID>0f31cd09-b029-4519-b7cb-12291eff42a0</ToolFormID>
+</ToolHolder>
+<ToolHolder>
+<ID>7fcc974e-abd6-49eb-98e5-dbce4bbf7d4b</ID>
+<Name>Test</Name>
+<BaseAssemblyFile>LicensedAnimatGUI.dll</BaseAssemblyFile>
+<BaseClassName>LicensedAnimatGUI.Forms.Charts.LineChart</BaseClassName>
+<ToolFormID>e9bce164-912e-4bd2-8915-25352676c582</ToolFormID>
+</ToolHolder>
+<ToolHolder>
+<ID>76eaeec2-9ace-49f8-b154-55190d961b83</ID>
+<Name>Neural Controller</Name>
+<BaseAssemblyFile>LicensedAnimatGUI.dll</BaseAssemblyFile>
+<BaseClassName>LicensedAnimatGUI.Forms.Charts.LineChart</BaseClassName>
+<ToolFormID>71831afa-1d58-4403-8c4b-4a4888041e06</ToolFormID>
 </ToolHolder>
 </ToolViewers>
 <Stimuli>
@@ -8023,8 +7905,8 @@
 <ClassName>AnimatGUI.DataObjects.ExternalStimuli.MotorPosition</ClassName>
 <Name>Stimulus_1</Name>
 <ID>29503a07-484d-42a4-9dc5-e82cd8bca8f1</ID>
-<StartTime Value="2" Scale="None" Actual="2"/>
-<EndTime Value="2.5" Scale="None" Actual="2.5"/>
+<StartTime Value="0" Scale="None" Actual="0"/>
+<EndTime Value="10" Scale="None" Actual="10"/>
 <StepInterval Value="0" Scale="milli" Actual="0"/>
 <AlwaysActive>False</AlwaysActive>
 <Enabled>True</Enabled>
@@ -8032,7 +7914,7 @@
 <Equation>0</Equation>
 <StructureID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</StructureID>
 <PartID>9d8bde90-0fb6-4313-8c63-b06ac20cd6ff</PartID>
-<Velocity Value="-0.05" Scale="None" Actual="-0.05"/>
+<Velocity Value="0" Scale="None" Actual="0"/>
 <DisableMotorWhenDone>False</DisableMotorWhenDone>
 </Stimulus>
 <Stimulus>
@@ -8044,7 +7926,7 @@
 <EndTime Value="10" Scale="None" Actual="10"/>
 <StepInterval Value="0" Scale="milli" Actual="0"/>
 <AlwaysActive>True</AlwaysActive>
-<Enabled>True</Enabled>
+<Enabled>False</Enabled>
 <ValueType>Constant</ValueType>
 <Equation>0</Equation>
 <OrganismID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</OrganismID>
@@ -8060,8 +7942,8 @@
 </Stimuli>
 <HudItems>
 <HudItem>
-<Name>a6bc8a57-bd76-46dd-9662-f2c378a730d5</Name>
-<ID>a6bc8a57-bd76-46dd-9662-f2c378a730d5</ID>
+<Name>b48eb7b2-6d35-438c-9c9e-ff09ed96ca53</Name>
+<ID>b48eb7b2-6d35-438c-9c9e-ff09ed96ca53</ID>
 <Type>HudText</Type>
 <CharSize>30</CharSize>
 <Text>Time: %3.3f</Text>
@@ -8155,8 +8037,8 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/22/2020 17:43:33"&gt;
-  &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 125" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/24/2020 18:24:55"&gt;
+  &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 131" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
       &lt;State Value="DockLeft" /&gt;
@@ -8170,7 +8052,7 @@
     &lt;DockingRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentDockingAffinity"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
       &lt;State Value="DockBottom" /&gt;
-      &lt;Position Size="150, 125" Location="150, 150" /&gt;
+      &lt;Position Size="150, 131" Location="150, 150" /&gt;
       &lt;Best Count="2"&gt;
         &lt;Item Name="Errors" /&gt;
         &lt;Item Name="Simulation Controller" /&gt;
@@ -8208,7 +8090,7 @@
       &lt;Child Type="null" /&gt;
     &lt;/FloatingRestore&gt;
   &lt;/Content&gt;
-  &lt;Content Name="Simulation Controller" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 125" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Simulation Controller" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
+  &lt;Content Name="Simulation Controller" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 131" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Simulation Controller" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Simulation Controller" UniqueName="" /&gt;
       &lt;State Value="DockLeft" /&gt;
@@ -8222,7 +8104,7 @@
     &lt;DockingRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentDockingAffinity"&gt;
       &lt;Content Name="Simulation Controller" UniqueName="" /&gt;
       &lt;State Value="DockBottom" /&gt;
-      &lt;Position Size="150, 125" Location="150, 150" /&gt;
+      &lt;Position Size="150, 131" Location="150, 150" /&gt;
       &lt;Best Count="1"&gt;
         &lt;Item Name="Simulation Controller" /&gt;
       &lt;/Best&gt;
@@ -8583,10 +8465,10 @@
 <TabbedGroupsConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;TabbedGroups FormatVersion="1" ActiveLeaf="3"&gt;
+&lt;TabbedGroups FormatVersion="1" ActiveLeaf="13"&gt;
   &lt;CustomGlobalData /&gt;
   &lt;Sequence Count="2" Unique="0" Space="100" Direction="Horizontal"&gt;
-    &lt;Leaf Count="3" Unique="3" Space="46.541200406917599186164801630"&gt;
+    &lt;Leaf Count="4" Unique="3" Space="55.646"&gt;
       &lt;Page Title="Organism_1 Body" ImageList="True" ImageIndex="0" Selected="False" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
@@ -8628,8 +8510,21 @@
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
+      &lt;Page Title="Test" ImageList="True" ImageIndex="1" Selected="False" Control="null" UniqueName=""&gt;
+        &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
+&lt;Form&gt;
+&lt;ID&gt;e9bce164-912e-4bd2-8915-25352676c582&lt;/ID&gt;
+&lt;Title&gt;Test&lt;/Title&gt;
+&lt;TabPageName&gt;Test&lt;/TabPageName&gt;
+&lt;AssemblyFile&gt;LicensedAnimatGUI.dll&lt;/AssemblyFile&gt;
+&lt;ClassName&gt;LicensedAnimatGUI.Forms.Charts.LineChart&lt;/ClassName&gt;
+&lt;ExternalFile&gt;Test.aform&lt;/ExternalFile&gt;
+&lt;/Form&gt;
+&lt;/TabPage&gt;
+]]&gt;&lt;/CustomPageData&gt;
+      &lt;/Page&gt;
     &lt;/Leaf&gt;
-    &lt;Leaf Count="1" Unique="13" Space="53.458799593082400813835198370"&gt;
+    &lt;Leaf Count="1" Unique="13" Space="44.354"&gt;
       &lt;Page Title="Neural Subsystem" ImageList="True" ImageIndex="2" Selected="True" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
