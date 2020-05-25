@@ -284,7 +284,7 @@
 <Relaxation5>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>24a56300-d93d-403c-b4ad-b2db52b553fe</ID>
+<ID>696d578e-1eb8-4eb9-a6e9-ab631a8a7137</ID>
 <Enabled>False</Enabled>
 <CoordinateID>4</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -293,7 +293,7 @@
 <Relaxation6>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>696d578e-1eb8-4eb9-a6e9-ab631a8a7137</ID>
+<ID>35247c61-a6ac-46b0-be63-d1d41ac7b687</ID>
 <Enabled>False</Enabled>
 <CoordinateID>5</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -1882,7 +1882,7 @@
 <ID>2a304550-ce8c-44ca-b2b0-cce48bd060c0</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -1961,7 +1961,7 @@
 <ID>9c2e0588-59d3-416d-bbef-661453a4ce65</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -2040,7 +2040,7 @@
 <ID>25321211-4db6-46e5-9e51-c211af8259c4</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -2196,7 +2196,7 @@
 <ID>f9ac379b-1356-4aa5-b2c0-51d24e2d2a67</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -2275,7 +2275,7 @@
 <ID>abaf8537-4ed3-43f5-856a-630c520193d7</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -2354,7 +2354,7 @@
 <ID>683eac7a-0abc-4432-afbc-927249d2af64</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -2510,7 +2510,7 @@
 <ID>cbaf0b40-7dc2-40ef-a772-32f5c591d27b</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -2752,7 +2752,7 @@
 <ID>ae5ff9ab-f406-45ce-a4d3-4a049c3f5986</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -2831,7 +2831,7 @@
 <ID>c108d5e5-1640-4ea6-9432-5ab9dc725b5c</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -2912,7 +2912,7 @@
 <ID>c7042144-2d6a-43d6-80a6-db9af88d0ad9</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -3117,7 +3117,7 @@
 <ID>f56763bc-10df-4410-a12b-f0124f527905</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -3243,7 +3243,7 @@
 <ID>958b8a0f-8bb6-4d27-aba5-c193ab7ccb6c</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -3322,7 +3322,7 @@
 <ID>bff58801-b1ad-4320-b75c-b411e627165a</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -3370,7 +3370,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="1119.75" y="178.75"/>
+<Location x="1035.75" y="196"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -3635,7 +3635,7 @@
 <ID>9caf1d0e-ba6b-41e8-a3ea-98ebefb40708</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -3715,7 +3715,7 @@
 <ID>2a84267c-11ac-49a3-8269-7a68051f1255</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -3794,7 +3794,7 @@
 <ID>f32beaee-8f68-4363-bfab-e23ff6934fa0</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -3874,7 +3874,7 @@
 <ID>c56f86dc-032e-4408-a2fd-f184a57660d2</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -3953,7 +3953,7 @@
 <ID>c78262e2-1167-4d77-bcfe-8cadbeddbc67</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -4051,7 +4051,7 @@
 <ImagePosition>RelativeToText</ImagePosition>
 <InLinkable>True</InLinkable>
 <LabelEdit>True</LabelEdit>
-<Location x="1210.88" y="183.25"/>
+<Location x="1126.88" y="200.5"/>
 <OutLinkable>True</OutLinkable>
 <ShadowStyle>None</ShadowStyle>
 <ShadowColor>-16777216</ShadowColor>
@@ -4165,7 +4165,7 @@
 <ID>a4c6649a-6096-4028-962a-685a6865fa8d</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -4244,7 +4244,7 @@
 <ID>8af06896-7992-43e5-93b7-b43b859274d9</ID>
 </OutLinks>
 <Enabled>True</Enabled>
-<RestingPotential Value="-50" Scale="milli" Actual="-0.05"/>
+<RestingPotential Value="-60" Scale="milli" Actual="-0.06"/>
 <RelativeSize Value="1" Scale="None" Actual="1"/>
 <TimeConstant Value="5" Scale="milli" Actual="0.005"/>
 <InitialThreshold Value="50" Scale="milli" Actual="0.05"/>
@@ -7864,7 +7864,7 @@
 </ToolHolder>
 <ToolHolder>
 <ID>7fcc974e-abd6-49eb-98e5-dbce4bbf7d4b</ID>
-<Name>Test</Name>
+<Name>Neuron Controller</Name>
 <BaseAssemblyFile>LicensedAnimatGUI.dll</BaseAssemblyFile>
 <BaseClassName>LicensedAnimatGUI.Forms.Charts.LineChart</BaseClassName>
 <ToolFormID>e9bce164-912e-4bd2-8915-25352676c582</ToolFormID>
@@ -7942,8 +7942,8 @@
 </Stimuli>
 <HudItems>
 <HudItem>
-<Name>b48eb7b2-6d35-438c-9c9e-ff09ed96ca53</Name>
-<ID>b48eb7b2-6d35-438c-9c9e-ff09ed96ca53</ID>
+<Name>cdbc9438-db2e-434e-abb3-b4fca3a8967a</Name>
+<ID>cdbc9438-db2e-434e-abb3-b4fca3a8967a</ID>
 <Type>HudText</Type>
 <CharSize>30</CharSize>
 <Text>Time: %3.3f</Text>
@@ -8037,7 +8037,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/24/2020 18:24:55"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/24/2020 18:36:24"&gt;
   &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 131" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
@@ -8497,7 +8497,7 @@
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
-      &lt;Page Title="Neural Controller" ImageList="True" ImageIndex="1" Selected="True" Control="null" UniqueName=""&gt;
+      &lt;Page Title="Neural Controller" ImageList="True" ImageIndex="1" Selected="False" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
 &lt;ID&gt;71831afa-1d58-4403-8c4b-4a4888041e06&lt;/ID&gt;
@@ -8510,15 +8510,15 @@
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
-      &lt;Page Title="Test" ImageList="True" ImageIndex="1" Selected="False" Control="null" UniqueName=""&gt;
+      &lt;Page Title="Neuron Controller" ImageList="True" ImageIndex="1" Selected="True" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
 &lt;ID&gt;e9bce164-912e-4bd2-8915-25352676c582&lt;/ID&gt;
-&lt;Title&gt;Test&lt;/Title&gt;
-&lt;TabPageName&gt;Test&lt;/TabPageName&gt;
+&lt;Title&gt;Neuron Controller&lt;/Title&gt;
+&lt;TabPageName&gt;Neuron Controller&lt;/TabPageName&gt;
 &lt;AssemblyFile&gt;LicensedAnimatGUI.dll&lt;/AssemblyFile&gt;
 &lt;ClassName&gt;LicensedAnimatGUI.Forms.Charts.LineChart&lt;/ClassName&gt;
-&lt;ExternalFile&gt;Test.aform&lt;/ExternalFile&gt;
+&lt;ExternalFile&gt;Neuron_Controller.aform&lt;/ExternalFile&gt;
 &lt;/Form&gt;
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
