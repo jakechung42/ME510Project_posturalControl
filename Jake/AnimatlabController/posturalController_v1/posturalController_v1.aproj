@@ -284,7 +284,7 @@
 <Relaxation5>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>9ad672e6-1f7e-4497-ba71-934697252384</ID>
+<ID>98fe245b-f129-406b-b708-35d01d987ca6</ID>
 <Enabled>False</Enabled>
 <CoordinateID>4</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -293,7 +293,7 @@
 <Relaxation6>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Physical.ConstraintRelaxationBullet</ClassName>
-<ID>98fe245b-f129-406b-b708-35d01d987ca6</ID>
+<ID>b81d25f5-9dbf-4b90-83d7-39799ecbe6fd</ID>
 <Enabled>False</Enabled>
 <CoordinateID>5</CoordinateID>
 <Stiffness Value="100" Scale="Kilo" Actual="100000"/>
@@ -521,24 +521,24 @@
 <AttachID>503078d4-2a80-46f1-acca-94d5ca23a069</AttachID>
 </Attachments>
 <StimulusTension>
-<ID>bf7e4403-15bf-4cad-92c8-47b26bc7132b</ID>
+<ID>f253fd84-6502-489b-9ae3-8acae40bbfb6</ID>
 <Type>StimulusTension</Type>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Gains.MuscleGains.StimulusTension</ClassName>
-<UseLimits>False</UseLimits>
+<UseLimits>True</UseLimits>
 <LimitsReadOnly>False</LimitsReadOnly>
 <LimitOutputsReadOnly>False</LimitOutputsReadOnly>
 <UseParentIncomingDataType>True</UseParentIncomingDataType>
 <LowerLimitScale Value="-100" Scale="milli" Actual="-0.1"/>
-<UpperLimitScale Value="0" Scale="milli" Actual="0"/>
+<UpperLimitScale Value="-0.01" Scale="milli" Actual="-1e-005"/>
 <LowerOutputScale Value="0" Scale="None" Actual="0"/>
-<UpperOutputScale Value="6" Scale="None" Actual="6"/>
+<UpperOutputScale Value="1485" Scale="None" Actual="1485"/>
 <IndependentUnits>Membrane Voltage (V)</IndependentUnits>
 <DependentUnits>Contractile Tension (N)</DependentUnits>
-<A Value="-40" Scale="milli" Actual="-0.04"/>
-<B Value="75" Scale="None" Actual="75"/>
-<C Value="100" Scale="None" Actual="100"/>
-<D Value="0" Scale="None" Actual="0"/>
+<A Value="-0.06" Scale="None" Actual="-0.06"/>
+<B Value="1500" Scale="None" Actual="1500"/>
+<C Value="121.465" Scale="None" Actual="121.465"/>
+<D Value="-11.552" Scale="None" Actual="-11.552"/>
 </StimulusTension>
 <LengthTension>
 <ID>ef320340-58d8-4dce-8475-7f6c4abffac4</ID>
@@ -560,9 +560,9 @@
 <PeLength Value="90" Scale="None" Actual="90"/>
 <MinPeLength Value="5" Scale="None" Actual="5"/>
 </LengthTension>
-<MaximumTension Value="100" Scale="None" Actual="100"/>
-<Kse Value="1000" Scale="None" Actual="1000"/>
-<Kpe Value="100" Scale="None" Actual="100"/>
+<MaximumTension Value="1500" Scale="None" Actual="1500"/>
+<Kse Value="239620" Scale="None" Actual="239620"/>
+<Kpe Value="4061.3" Scale="None" Actual="4061.3"/>
 <B Value="1" Scale="None" Actual="1"/>
 <IbDischarge Value="100" Scale="None" Actual="100"/>
 </RigidBody>
@@ -658,7 +658,7 @@
 <AttachID>62034be9-32f2-48f3-8cd7-e63f5574fab1</AttachID>
 </Attachments>
 <StimulusTension>
-<ID>746e0f11-2a07-4150-ac65-5289a901ce1e</ID>
+<ID>09b5000c-9c02-4e9e-bfbb-568d0f1f5560</ID>
 <Type>StimulusTension</Type>
 <AssemblyFile>AnimatGUI.dll</AssemblyFile>
 <ClassName>AnimatGUI.DataObjects.Gains.MuscleGains.StimulusTension</ClassName>
@@ -667,15 +667,15 @@
 <LimitOutputsReadOnly>False</LimitOutputsReadOnly>
 <UseParentIncomingDataType>True</UseParentIncomingDataType>
 <LowerLimitScale Value="-100" Scale="milli" Actual="-0.1"/>
-<UpperLimitScale Value="0" Scale="milli" Actual="0"/>
+<UpperLimitScale Value="-0.01" Scale="milli" Actual="-1e-005"/>
 <LowerOutputScale Value="0" Scale="None" Actual="0"/>
-<UpperOutputScale Value="6" Scale="None" Actual="6"/>
+<UpperOutputScale Value="1485" Scale="None" Actual="1485"/>
 <IndependentUnits>Membrane Voltage (V)</IndependentUnits>
 <DependentUnits>Contractile Tension (N)</DependentUnits>
-<A Value="-40" Scale="milli" Actual="-0.04"/>
-<B Value="75" Scale="None" Actual="75"/>
-<C Value="100" Scale="None" Actual="100"/>
-<D Value="0" Scale="None" Actual="0"/>
+<A Value="-0.06" Scale="None" Actual="-0.06"/>
+<B Value="1500" Scale="None" Actual="1500"/>
+<C Value="121.465" Scale="None" Actual="121.465"/>
+<D Value="-11.5524" Scale="None" Actual="-11.5524"/>
 </StimulusTension>
 <LengthTension>
 <ID>58d01778-0c6e-4667-b846-4c3d54166c8b</ID>
@@ -697,9 +697,9 @@
 <PeLength Value="90" Scale="None" Actual="90"/>
 <MinPeLength Value="5" Scale="None" Actual="5"/>
 </LengthTension>
-<MaximumTension Value="100" Scale="None" Actual="100"/>
-<Kse Value="1000" Scale="None" Actual="1000"/>
-<Kpe Value="100" Scale="None" Actual="100"/>
+<MaximumTension Value="1500" Scale="None" Actual="1500"/>
+<Kse Value="239620" Scale="None" Actual="239620"/>
+<Kpe Value="4061.3" Scale="None" Actual="4061.3"/>
 <B Value="1" Scale="None" Actual="1"/>
 <IbDischarge Value="100" Scale="None" Actual="100"/>
 </RigidBody>
@@ -7964,8 +7964,8 @@
 </Stimuli>
 <HudItems>
 <HudItem>
-<Name>5f2e21f1-c6e5-445e-8aa9-4af6c7dca14e</Name>
-<ID>5f2e21f1-c6e5-445e-8aa9-4af6c7dca14e</ID>
+<Name>4a20acb7-8620-47bd-a20d-27f3a8a310e2</Name>
+<ID>4a20acb7-8620-47bd-a20d-27f3a8a310e2</ID>
 <Type>HudText</Type>
 <CharSize>30</CharSize>
 <Text>Time: %3.3f</Text>
@@ -8059,7 +8059,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/25/2020 01:07:37"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="05/26/2020 22:19:53"&gt;
   &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 135" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
@@ -8487,7 +8487,7 @@
 <TabbedGroupsConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;TabbedGroups FormatVersion="1" ActiveLeaf="3"&gt;
+&lt;TabbedGroups FormatVersion="1" ActiveLeaf="13"&gt;
   &lt;CustomGlobalData /&gt;
   &lt;Sequence Count="2" Unique="0" Space="100" Direction="Horizontal"&gt;
     &lt;Leaf Count="4" Unique="3" Space="55.646"&gt;
