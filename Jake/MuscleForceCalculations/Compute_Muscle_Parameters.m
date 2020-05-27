@@ -1,12 +1,13 @@
-
+%Created originally by Dr. Hunt foro the Neuromechanical Class - Spring
+%2020
 %% Muscle Parameters to change for each muscle
 
 %Maximmum Muscle Force
 F_max = 1500; %newtons
 
 %Muscle lengths
-max_length = .092; %meters
-min_length = .078; %meters
+max_length = 0.626; %meters
+min_length = 0.526; %meters
 
 %% Muscle Parameters built on huristics that could see some change
 
@@ -30,8 +31,8 @@ kpe_percent = [.9 .9]; %The default amount
 
 %% Parameters for setting the activation curve.
 %The following parameters are based on having 0 output
-%at -100mV, 99% output at -10 mV and the center at -50mV
-curve_center = -.05;
+%at -100mV, 99% output at -10 mV and the center at -60mV
+curve_center = -.06;
 curve_min = 0;
 curve_min_pos = -.1;
 curve_high = .99;
