@@ -7273,7 +7273,7 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="06/10/2020 13:11:27"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="06/10/2020 13:53:07"&gt;
   &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 114" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
@@ -7701,11 +7701,11 @@
 <TabbedGroupsConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;TabbedGroups FormatVersion="1" ActiveLeaf="3"&gt;
+&lt;TabbedGroups FormatVersion="1" ActiveLeaf="6"&gt;
   &lt;CustomGlobalData /&gt;
   &lt;Sequence Count="2" Unique="0" Space="100" Direction="Horizontal"&gt;
-    &lt;Leaf Count="4" Unique="3" Space="50.143815915627996164908916590"&gt;
-      &lt;Page Title="Organism_1 Body" ImageList="True" ImageIndex="0" Selected="False" Control="null" UniqueName=""&gt;
+    &lt;Leaf Count="4" Unique="3" Space="24.496644295302013422818791950"&gt;
+      &lt;Page Title="Organism_1 Body" ImageList="True" ImageIndex="0" Selected="True" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
 &lt;ID&gt;2f3d0f3a-02b7-4b7a-a2cf-87d96e7449a2&lt;/ID&gt;
@@ -7746,7 +7746,7 @@
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
-      &lt;Page Title="Neuron Controller 2" ImageList="True" ImageIndex="1" Selected="True" Control="null" UniqueName=""&gt;
+      &lt;Page Title="Neuron Controller 2" ImageList="True" ImageIndex="1" Selected="False" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
 &lt;ID&gt;e9bce164-912e-4bd2-8915-25352676c582&lt;/ID&gt;
@@ -7760,7 +7760,7 @@
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
     &lt;/Leaf&gt;
-    &lt;Leaf Count="1" Unique="6" Space="49.856184084372003835091083410"&gt;
+    &lt;Leaf Count="1" Unique="6" Space="75.503355704697986577181208050"&gt;
       &lt;Page Title="Neural Subsystem" ImageList="True" ImageIndex="2" Selected="True" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
