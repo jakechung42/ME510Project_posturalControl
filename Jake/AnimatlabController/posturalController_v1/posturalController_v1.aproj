@@ -4128,7 +4128,7 @@
 <ToolTip/>
 <Url/>
 <ZOrder>0</ZOrder>
-<SynapticTypeID>10b38584-4053-4c59-9d8b-7bc5176fb671</SynapticTypeID>
+<SynapticTypeID>6028ae2b-0473-4d99-9df9-62c181c42167</SynapticTypeID>
 <UserText/>
 <SynapticConductance Value="0.5" Scale="micro" Actual="5e-007"/>
 <ConductionDelay Value="0" Scale="milli" Actual="0"/>
@@ -4316,7 +4316,7 @@
 <ToolTip/>
 <Url/>
 <ZOrder>0</ZOrder>
-<SynapticTypeID>10b38584-4053-4c59-9d8b-7bc5176fb671</SynapticTypeID>
+<SynapticTypeID>3acb27ec-bb72-496b-8fc9-fdae2b8620be</SynapticTypeID>
 <UserText/>
 <SynapticConductance Value="0.5" Scale="micro" Actual="5e-007"/>
 <ConductionDelay Value="0" Scale="milli" Actual="0"/>
@@ -4825,7 +4825,7 @@
 <ToolTip/>
 <Url/>
 <ZOrder>0</ZOrder>
-<SynapticTypeID>10b38584-4053-4c59-9d8b-7bc5176fb671</SynapticTypeID>
+<SynapticTypeID>6028ae2b-0473-4d99-9df9-62c181c42167</SynapticTypeID>
 <UserText/>
 <SynapticConductance Value="0.5" Scale="micro" Actual="5e-007"/>
 <ConductionDelay Value="0" Scale="milli" Actual="0"/>
@@ -4962,7 +4962,7 @@
 <ToolTip/>
 <Url/>
 <ZOrder>0</ZOrder>
-<SynapticTypeID>10b38584-4053-4c59-9d8b-7bc5176fb671</SynapticTypeID>
+<SynapticTypeID>3acb27ec-bb72-496b-8fc9-fdae2b8620be</SynapticTypeID>
 <UserText/>
 <SynapticConductance Value="0.5" Scale="micro" Actual="5e-007"/>
 <ConductionDelay Value="0" Scale="milli" Actual="0"/>
@@ -5475,7 +5475,7 @@
 <ToolTip/>
 <Url/>
 <ZOrder>0</ZOrder>
-<SynapticTypeID>3acb27ec-bb72-496b-8fc9-fdae2b8620be</SynapticTypeID>
+<SynapticTypeID>10b38584-4053-4c59-9d8b-7bc5176fb671</SynapticTypeID>
 <UserText/>
 <SynapticConductance Value="0.5" Scale="micro" Actual="5e-007"/>
 <ConductionDelay Value="0" Scale="milli" Actual="0"/>
@@ -5522,7 +5522,7 @@
 <ToolTip/>
 <Url/>
 <ZOrder>0</ZOrder>
-<SynapticTypeID>3acb27ec-bb72-496b-8fc9-fdae2b8620be</SynapticTypeID>
+<SynapticTypeID>10b38584-4053-4c59-9d8b-7bc5176fb671</SynapticTypeID>
 <UserText/>
 <SynapticConductance Value="0.5" Scale="micro" Actual="5e-007"/>
 <ConductionDelay Value="0" Scale="milli" Actual="0"/>
@@ -6478,7 +6478,7 @@
 <Name>Stimulus_1</Name>
 <ID>29503a07-484d-42a4-9dc5-e82cd8bca8f1</ID>
 <StartTime Value="1" Scale="None" Actual="1"/>
-<EndTime Value="1.1" Scale="None" Actual="1.1"/>
+<EndTime Value="1.05" Scale="None" Actual="1.05"/>
 <StepInterval Value="0" Scale="milli" Actual="0"/>
 <AlwaysActive>False</AlwaysActive>
 <Enabled>True</Enabled>
@@ -6486,7 +6486,7 @@
 <Equation>0</Equation>
 <StructureID>f4ab4bfe-6f6f-446d-ab9d-84c6b3de93ce</StructureID>
 <PartID>9d8bde90-0fb6-4313-8c63-b06ac20cd6ff</PartID>
-<Velocity Value="0.03" Scale="None" Actual="0.03"/>
+<Velocity Value="0.02" Scale="None" Actual="0.02"/>
 <DisableMotorWhenDone>True</DisableMotorWhenDone>
 </Stimulus>
 <Stimulus>
@@ -6609,8 +6609,8 @@
 <DockingConfig>&lt;?xml version="1.0" encoding="us-ascii"?&gt;
 &lt;!-- DotNetMagic, The User Interface library for .NET (www.crownwood.net) --&gt;
 &lt;!-- Modifying this generated file will probably render it invalid --&gt;
-&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="06/10/2020 14:04:28"&gt;
-  &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 114" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
+&lt;DockingConfig FormatVersion="10" InsideFill="False" InnerMinimum="20, 20" SavedAt="06/10/2020 19:48:28"&gt;
+  &lt;Content Name="Errors" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 58" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Errors" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
       &lt;State Value="DockLeft" /&gt;
@@ -6624,7 +6624,7 @@
     &lt;DockingRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentDockingAffinity"&gt;
       &lt;Content Name="Errors" UniqueName="" /&gt;
       &lt;State Value="DockBottom" /&gt;
-      &lt;Position Size="150, 114" Location="150, 150" /&gt;
+      &lt;Position Size="150, 58" Location="150, 150" /&gt;
       &lt;Best Count="2"&gt;
         &lt;Item Name="Errors" /&gt;
         &lt;Item Name="Simulation Controller" /&gt;
@@ -6662,7 +6662,7 @@
       &lt;Child Type="null" /&gt;
     &lt;/FloatingRestore&gt;
   &lt;/Content&gt;
-  &lt;Content Name="Simulation Controller" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 114" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Simulation Controller" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
+  &lt;Content Name="Simulation Controller" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="150, 58" DisplayLocation="150, 150" AutoHideSize="150, 125" FloatingSize="150, 150" FullTitle="Simulation Controller" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Simulation Controller" UniqueName="" /&gt;
       &lt;State Value="DockLeft" /&gt;
@@ -6676,7 +6676,7 @@
     &lt;DockingRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentDockingAffinity"&gt;
       &lt;Content Name="Simulation Controller" UniqueName="" /&gt;
       &lt;State Value="DockBottom" /&gt;
-      &lt;Position Size="150, 114" Location="150, 150" /&gt;
+      &lt;Position Size="150, 58" Location="150, 150" /&gt;
       &lt;Best Count="1"&gt;
         &lt;Item Name="Simulation Controller" /&gt;
       &lt;/Best&gt;
@@ -6710,7 +6710,7 @@
       &lt;Child Type="null" /&gt;
     &lt;/FloatingRestore&gt;
   &lt;/Content&gt;
-  &lt;Content Name="Workspace" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="201, 150" DisplayLocation="150, 150" AutoHideSize="200, 150" FloatingSize="150, 150" FullTitle="Workspace" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
+  &lt;Content Name="Workspace" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="157, 150" DisplayLocation="150, 150" AutoHideSize="200, 150" FloatingSize="150, 150" FullTitle="Workspace" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Workspace" UniqueName="" /&gt;
       &lt;State Value="DockLeft" /&gt;
@@ -6724,7 +6724,7 @@
     &lt;DockingRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentDockingAffinity"&gt;
       &lt;Content Name="Workspace" UniqueName="" /&gt;
       &lt;State Value="DockLeft" /&gt;
-      &lt;Position Size="201, 150" Location="150, 150" /&gt;
+      &lt;Position Size="157, 150" Location="150, 150" /&gt;
       &lt;Best Count="1"&gt;
         &lt;Item Name="Workspace" /&gt;
       &lt;/Best&gt;
@@ -6757,7 +6757,7 @@
       &lt;Child Type="null" /&gt;
     &lt;/FloatingRestore&gt;
   &lt;/Content&gt;
-  &lt;Content Name="Properties" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="228, 150" DisplayLocation="150, 150" AutoHideSize="200, 150" FloatingSize="150, 150" FullTitle="Properties" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
+  &lt;Content Name="Properties" Visible="True" Docked="True" AutoHidden="False" CaptionBar="True" CloseButton="False" DisplaySize="133, 150" DisplayLocation="150, 150" AutoHideSize="200, 150" FloatingSize="150, 150" FullTitle="Properties" Office2003BackColor="Base" UniqueName="" Office2007BackColor="Base" MediaPlayerBackColor="Base"&gt;
     &lt;DefaultRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentState"&gt;
       &lt;Content Name="Properties" UniqueName="" /&gt;
       &lt;State Value="DockLeft" /&gt;
@@ -6771,7 +6771,7 @@
     &lt;DockingRestore Type="Crownwood.DotNetMagic.Docking.RestoreContentDockingAffinity"&gt;
       &lt;Content Name="Properties" UniqueName="" /&gt;
       &lt;State Value="DockRight" /&gt;
-      &lt;Position Size="228, 150" Location="150, 150" /&gt;
+      &lt;Position Size="133, 150" Location="150, 150" /&gt;
       &lt;Best Count="1"&gt;
         &lt;Item Name="Properties" /&gt;
       &lt;/Best&gt;
@@ -7040,7 +7040,7 @@
 &lt;TabbedGroups FormatVersion="1" ActiveLeaf="3"&gt;
   &lt;CustomGlobalData /&gt;
   &lt;Sequence Count="2" Unique="0" Space="100" Direction="Horizontal"&gt;
-    &lt;Leaf Count="4" Unique="3" Space="56.040268456375838926174496640"&gt;
+    &lt;Leaf Count="4" Unique="3" Space="57.712895377128953771289537710"&gt;
       &lt;Page Title="Organism_1 Body" ImageList="True" ImageIndex="0" Selected="False" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
@@ -7056,7 +7056,7 @@
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
-      &lt;Page Title="Muscle Charts" ImageList="True" ImageIndex="1" Selected="False" Control="null" UniqueName=""&gt;
+      &lt;Page Title="Muscle Charts" ImageList="True" ImageIndex="1" Selected="True" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
 &lt;ID&gt;0f31cd09-b029-4519-b7cb-12291eff42a0&lt;/ID&gt;
@@ -7069,7 +7069,7 @@
 &lt;/TabPage&gt;
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
-      &lt;Page Title="Neural Controller 1" ImageList="True" ImageIndex="1" Selected="True" Control="null" UniqueName=""&gt;
+      &lt;Page Title="Neural Controller 1" ImageList="True" ImageIndex="1" Selected="False" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
 &lt;ID&gt;71831afa-1d58-4403-8c4b-4a4888041e06&lt;/ID&gt;
@@ -7096,7 +7096,7 @@
 ]]&gt;&lt;/CustomPageData&gt;
       &lt;/Page&gt;
     &lt;/Leaf&gt;
-    &lt;Leaf Count="1" Unique="6" Space="43.959731543624161073825503360"&gt;
+    &lt;Leaf Count="1" Unique="6" Space="42.287104622871046228710462290"&gt;
       &lt;Page Title="Neural Subsystem" ImageList="True" ImageIndex="2" Selected="True" Control="null" UniqueName=""&gt;
         &lt;CustomPageData&gt;&lt;![CDATA[&lt;TabPage&gt;
 &lt;Form&gt;
