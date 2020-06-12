@@ -16,6 +16,50 @@
 <Axis>
 <AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
 <ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DAxis</ClassName>
+<Name>CPG</Name>
+<WorkingAxis>2</WorkingAxis>
+<DataColumns>
+<DataColumn>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
+<Name>Flex HC</Name>
+<ID>1d36e27b-b711-4d7d-969a-3ad6e91113ef</ID>
+<DataItemAssemblyFile>IntegrateFireGUI.dll</DataItemAssemblyFile>
+<DataItemClassName>IntegrateFireGUI.DataObjects.Behavior.Neurons.NonSpiking</DataItemClassName>
+<StructureID>f688ff65-3a5e-4326-a3d5-61203988cbc1</StructureID>
+<DataItemID>2b98d580-b5dd-40f8-999b-cb6f2c399d67</DataItemID>
+<SelectedDataType>MembraneVoltage</SelectedDataType>
+<DataSubSet>2</DataSubSet>
+<PrevDataSubset>2</PrevDataSubset>
+<UseIncomingDataType>False</UseIncomingDataType>
+<LineType>MediumSolid</LineType>
+<PointType>Plus</PointType>
+<PlotMethodType>Line</PlotMethodType>
+<LineColor>-65536</LineColor>
+</DataColumn>
+<DataColumn>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DColumn</ClassName>
+<Name>Ext HC</Name>
+<ID>43308197-3613-4cf6-acc1-b53e2983e78b</ID>
+<DataItemAssemblyFile>IntegrateFireGUI.dll</DataItemAssemblyFile>
+<DataItemClassName>IntegrateFireGUI.DataObjects.Behavior.Neurons.NonSpiking</DataItemClassName>
+<StructureID>f688ff65-3a5e-4326-a3d5-61203988cbc1</StructureID>
+<DataItemID>c5f2d7ad-0604-41a7-b868-e5391c37627d</DataItemID>
+<SelectedDataType>MembraneVoltage</SelectedDataType>
+<DataSubSet>3</DataSubSet>
+<PrevDataSubset>3</PrevDataSubset>
+<UseIncomingDataType>False</UseIncomingDataType>
+<LineType>MediumSolid</LineType>
+<PointType>Plus</PointType>
+<PlotMethodType>Line</PlotMethodType>
+<LineColor>-16711936</LineColor>
+</DataColumn>
+</DataColumns>
+</Axis>
+<Axis>
+<AssemblyFile>LicensedAnimatGUI.dll</AssemblyFile>
+<ClassName>LicensedAnimatGUI.DataObjects.Charting.Pro2DAxis</ClassName>
 <Name>Stimulus</Name>
 <WorkingAxis>0</WorkingAxis>
 <DataColumns>
@@ -70,6 +114,6 @@
 <UpdateChartAtEnd>True</UpdateChartAtEnd>
 <PointsToKeep>25000</PointsToKeep>
 <YAxisOffset>0</YAxisOffset>
-<GraphConfig ByteCount="8943"/>
+<GraphConfig ByteCount="8971"/>
 </Form>
 </Form>
